@@ -459,3 +459,143 @@ body{
     }
 
 }
+
+
+
+/* Full screen loader */
+#loader{
+    position:fixed;
+    inset:0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:rgba(0,0,0,.65);
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+
+    z-index:999999;
+
+    transition:opacity .8s ease,
+               visibility .8s ease;
+}
+
+/* Center content */
+.loader-content{
+    text-align:center;
+}
+
+/* Logo */
+.loader-logo{
+
+    width:120px;
+    height:120px;
+    object-fit:contain;
+
+    animation:
+        float 3s ease-in-out infinite,
+        glow 2s ease-in-out infinite;
+}
+
+/* Restaurant name */
+.loader-content h1{
+
+    margin-top:20px;
+
+    font-size:clamp(2rem,5vw,3.5rem);
+
+    color:#ffffff;
+
+    letter-spacing:8px;
+
+    font-weight:700;
+}
+
+/* Subtitle */
+.loader-content p{
+
+    margin-top:10px;
+
+    color:#d9d9d9;
+
+    font-size:1rem;
+
+    letter-spacing:2px;
+}
+
+/* Dots */
+
+.loading-dots{
+
+    display:flex;
+    justify-content:center;
+
+    gap:10px;
+
+    margin-top:30px;
+}
+
+.loading-dots span{
+
+    width:12px;
+    height:12px;
+
+    border-radius:50%;
+
+    background:#D4A017;
+
+    animation:bounce 1.2s infinite;
+}
+
+.loading-dots span:nth-child(2){
+    animation-delay:.2s;
+}
+
+.loading-dots span:nth-child(3){
+    animation-delay:.4s;
+}
+
+/* Hide */
+
+.loader-hide{
+    opacity:0;
+    visibility:hidden;
+}
+
+/* Animations */
+
+@keyframes float{
+
+    0%,100%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-12px);
+    }
+}
+
+@keyframes glow{
+
+    0%,100%{
+        filter:drop-shadow(0 0 8px rgba(212,160,23,.4));
+    }
+
+    50%{
+        filter:drop-shadow(0 0 25px rgba(212,160,23,.9));
+    }
+}
+
+@keyframes bounce{
+
+    0%,80%,100%{
+        transform:translateY(0);
+        opacity:.4;
+    }
+
+    40%{
+        transform:translateY(-10px);
+        opacity:1;
+    }
+}
