@@ -410,3 +410,52 @@ body{
     }
 
 }
+
+@media (max-width: 370px) {
+
+    .navbar{
+        padding: 0.4rem 0.8rem;
+    }
+
+    /* Logo container */
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    /* Logo image */
+    .logo img{
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+    }
+
+    /* Logo text */
+    .logo-text{
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+
+    /* Hamburger button */
+    .navbar-toggler{
+        padding: 0.25rem 0.45rem;
+    }
+
+    .navbar-toggler-icon{
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    /* Mobile menu */
+    .navbar-collapse{
+        margin-top: 10px;
+    }
+
+    .nav-link{
+        text-align: center;
+        font-size: 1rem;
+        padding: 0.45rem 0;
+    }
+
+}
