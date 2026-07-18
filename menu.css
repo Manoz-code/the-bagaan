@@ -1,0 +1,651 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/* ===== Welcome Loader ===== */
+
+#welcome-loader{
+
+    position: fixed;
+    inset: 0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#F8F5F0;
+
+    z-index:9999;
+
+    transition:opacity .8s ease;
+
+}
+
+.loader-content{
+
+    text-align:center;
+
+}
+
+.loader-logo{
+
+    width:120px;
+    animation:logoFloat 2s ease-in-out infinite;
+}
+
+.loader-content h1{
+
+    margin-top:15px;
+
+    font-size:3rem;
+
+    color:#2F6B3D;
+
+    letter-spacing:4px;
+}
+
+#typing-text{
+
+    margin-top:20px;
+
+    font-size:1.2rem;
+
+    color:#555;
+
+    min-height:30px;
+}
+
+#typing-text::after{
+
+    content:"|";
+
+    animation:blink .8s infinite;
+}
+
+#menu-content{
+
+    opacity:0;
+
+    transform:translateY(20px);
+
+    transition:1s ease;
+
+}
+
+/* Cursor */
+
+@keyframes blink{
+
+    50%{
+
+        opacity:0;
+
+    }
+
+}
+
+/* Floating Logo */
+
+@keyframes logoFloat{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-8px);
+
+    }
+
+}
+
+
+
+
+.menu-header{
+
+    position:sticky;
+    top:0;
+
+    background:#F8F5F0;
+
+    padding:20px;
+
+    z-index:1000;
+
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
+
+}
+
+.search-box{
+
+    display:flex;
+    align-items:center;
+
+    background:white;
+
+    border-radius:50px;
+
+    padding:12px 18px;
+
+    gap:12px;
+
+    max-width:600px;
+
+    margin:auto;
+
+}
+
+.search-box i{
+
+    color:#2F6B3D;
+
+    font-size:18px;
+
+}
+
+.search-box input{
+
+    flex:1;
+
+    border:none;
+
+    outline:none;
+
+    font-size:16px;
+
+    background:transparent;
+
+}
+
+
+/* ---------- Grid ---------- */
+
+.menu-grid{
+
+    width:min(1200px,92%);
+    margin:auto;
+
+    display:grid;
+    gap:2rem;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+}
+
+
+/* ---------- Card ---------- */
+
+.menu-card{
+
+    background:#fff;
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.35s ease;
+
+}
+
+
+.menu-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 45px rgba(0,0,0,.15);
+
+}
+
+
+/* ---------- Image ---------- */
+
+.card-image{
+
+    position:relative;
+
+    overflow:hidden;
+
+    height:240px;
+
+}
+
+.card-image img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.4s;
+
+}
+
+.menu-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+
+
+
+/* ==========================
+      PAGE
+========================== */
+
+body{
+
+    margin:0;
+
+    background:#F8F5F0;
+
+    font-family:Poppins,sans-serif;
+
+}
+
+/* ==========================
+      SEARCH
+========================== */
+
+.menu-header{
+
+    position:sticky;
+
+    top:0;
+
+    background:#F8F5F0;
+
+    padding:20px;
+
+    z-index:1000;
+
+}
+
+.search-box{
+
+    max-width:700px;
+
+    margin:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    background:white;
+
+    border-radius:50px;
+
+    padding:14px 20px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+.search-box i{
+
+    color:#2F6B3D;
+
+    font-size:18px;
+
+}
+
+.search-box input{
+
+    flex:1;
+
+    border:none;
+
+    outline:none;
+
+    margin-left:15px;
+
+    background:none;
+
+    font-size:16px;
+
+}
+
+/* ==========================
+      CATEGORY BAR
+========================== */
+
+.category-nav{
+
+    position:sticky;
+
+    top:90px;
+
+    z-index:999;
+
+    background:#F8F5F0;
+
+    display:flex;
+
+    gap:15px;
+
+    padding:15px 20px;
+
+    overflow-x:auto;
+
+    scrollbar-width:none;
+
+}
+
+.category-nav::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+.category{
+
+    text-decoration:none;
+
+    color:#555;
+
+    background:white;
+
+    padding:12px 22px;
+
+    border-radius:40px;
+
+    white-space:nowrap;
+
+    transition:.3s;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.category:hover{
+
+    background:#2F6B3D;
+
+    color:white;
+
+}
+
+.category.active{
+
+    background:#2F6B3D;
+
+    color:white;
+
+}
+
+/* ==========================
+      SECTION
+========================== */
+
+.menu-section{
+
+    width:min(1200px,92%);
+
+    margin:80px auto;
+
+    min-height:500px;
+
+}
+
+.menu-section h2{
+
+    color:#2F6B3D;
+
+    font-size:2rem;
+
+}
+
+.menu-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+    margin-top:25px;
+
+}
+
+.menu-card{
+
+    background:#FFFDF8;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.menu-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+.card-image{
+
+    height:230px;
+
+    overflow:hidden;
+
+}
+
+.card-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.4s;
+
+}
+
+.menu-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.card-content{
+
+    padding:20px;
+
+}
+
+.card-content h3{
+
+    color:#2F6B3D;
+
+    margin-bottom:10px;
+
+}
+
+.card-content p{
+
+    color:#666;
+
+    line-height:1.6;
+
+}
+
+.card-footer{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    margin-top:15px;
+
+}
+
+.price{
+
+    font-size:1.2rem;
+
+    font-weight:700;
+
+    color:#C8A45D;
+
+}
+
+
+.drink-subcategories{
+
+    display:flex;
+
+    gap:18px;
+
+    padding:20px 5px;
+
+    overflow-x:auto;
+
+    scroll-behavior:smooth;
+
+    scrollbar-width:none;
+
+}
+
+
+.drink-subcategories::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+
+/* Individual card */
+
+.drink-category{
+
+    flex:0 0 auto;
+
+    width:110px;
+
+    height:95px;
+
+    border:none;
+
+    border-radius:22px;
+
+    background:#ffffff;
+
+    cursor:pointer;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    color:#333;
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,0.08);
+
+    transition:
+    transform .3s ease,
+    box-shadow .3s ease,
+    background .3s ease;
+
+}
+
+
+
+/* Icon */
+
+.drink-icon{
+
+    font-size:32px;
+
+}
+
+
+
+/* Hover */
+
+.drink-category:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:
+    0 15px 30px rgba(0,0,0,0.15);
+
+}
+
+
+
+/* Active button */
+
+.drink-category.active{
+
+    background:#2f6b3d;
+
+    color:white;
+
+    transform:translateY(-4px);
+
+    box-shadow:
+    0 12px 25px rgba(47,107,61,.35);
+
+}
+
+@media(max-width:600px){
+
+    .drink-subcategories{
+
+        gap:12px;
+
+        padding:15px 0;
+
+    }
+
+
+    .drink-category{
+
+        width:90px;
+
+        height:85px;
+
+        border-radius:18px;
+
+    }
+
+
+    .drink-icon{
+
+        font-size:28px;
+
+    }
+
+}

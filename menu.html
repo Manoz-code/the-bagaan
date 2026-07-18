@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    
+<div id="welcome-loader">
+
+    <div class="loader-content">
+
+        <img src="images/logo.png" alt="Bagaan Logo" class="loader-logo">
+
+        <h1>BAGAAN</h1>
+
+        <p id="typing-text"></p>
+
+    </div>
+
+</div>
+
+
+<header class="menu-header">
+
+    <div class="search-box">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input
+            type="text"
+            id="search"
+            data-placeholder="search"
+            placeholder="Search food or drinks..."
+        >
+
+    </div>
+
+</header>
+
+<!-- Your Menu -->
+<main id="menu-content">
+
+    <!-- Menu starts here -->
+
+<!-- ==========================
+        CATEGORY BAR
+========================== -->
+
+<nav class="category-nav">
+
+    <a href="#drinks" class="category active">🥤 <span data-lang="drinks">Drinks</span></a>
+
+    <a href="#burger" class="category">🍔<span data-lang="burger"> Burger</span></a>
+
+    <a href="#pizza" class="category">🍕 <span data-lang="pizza">Pizza</span></a>
+
+    <a href="#chicken" class="category">🍗 <span data-lang="chicken">Chicken</span></a>
+
+    <a href="#main-course" class="category">🍛<span data-lang="mainCourse"> Main Course</span></a>
+
+    <a href="#dessert" class="category">🍰<span data-lang="dessert"> Dessert</span></a>
+
+</nav>
+
+<!-- ==========================
+        DRINKS
+========================== -->
+
+<!-- ==========================
+        DRINKS
+========================== -->
+
+<section id="drinks" class="menu-section">
+
+    <h2>🥤 <span data-lang="drinks">Drinks</span></h2>
+
+
+    <!-- Drink Sub Categories -->
+
+<div class="drink-subcategories">
+
+    <button class="drink-category active" data-sub="all">
+        <span class="drink-icon">🥤</span>
+        <span>All</span>
+    </button>
+
+
+    <button class="drink-category" data-sub="coffee">
+        <span class="drink-icon">☕</span>
+        <span>Coffee</span>
+    </button>
+
+
+    <button class="drink-category" data-sub="tea">
+        <span class="drink-icon">🍵</span>
+        <span>Tea</span>
+    </button>
+
+
+    <button class="drink-category" data-sub="cold">
+        <span class="drink-icon">🧊</span>
+        <span>Cold Drinks</span>
+    </button>
+
+
+    <button class="drink-category" data-sub="juice">
+        <span class="drink-icon">🧃</span>
+        <span>Juice</span>
+    </button>
+
+</div>
+
+
+    <div class="menu-grid"></div>
+
+</section>
+
+<section id="burger" class="menu-section">
+
+    <h2>🍔 <span data-lang="burger">Burger</span></h2>
+        <div class="menu-grid"></div>
+
+</section>
+
+<section id="pizza" class="menu-section">
+
+    <h2>🍕 <span data-lang="pizza">Pizza</span></h2>
+        <div class="menu-grid"></div>
+
+</section>
+
+<section id="chicken" class="menu-section">
+
+    <h2>🍗 <span data-lang="chicken">Chicken</span></h2>
+        <div class="menu-grid"></div>
+
+</section>
+
+<section id="main-course" class="menu-section">
+
+    <h2>🍛 <span data-lang="mainCourse">Main Course</span></h2>
+        <div class="menu-grid"></div>
+
+</section>
+
+<section id="dessert" class="menu-section">
+
+    <h2>🍰 <span data-lang="dessert">Dessert</span></h2>
+        <div class="menu-grid"></div>
+
+</section>
+
+</main>
+</div>
+    <script src="menu.js"></script>
+</body>
+</html>

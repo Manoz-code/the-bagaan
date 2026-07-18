@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "en": "Espresso (Single)",
+      "np": "एस्प्रेसो (सिंगल)"
+    },
+    "price": {
+      "en": "NPR. 100",
+      "np": "रु. १००"
+    },
+    "category": "drinks",
+    "subcategory" : "coffee",
+    "image": "https://img.magnific.com/free-photo/white-cup-with-fragrant-strong-espresso-coffee-with-thick-foam-traditional-greek-coffee-shop-top-view-coffee-with-saucer-gray-marble-table-idea-background-poster_166373-3823.jpg?semt=ais_hybrid&w=740&q=80",
+    "description": {
+      "en": "A single espresso (or solo) is a concentrated 1-ounce shot of coffee brewed by forcing hot water through finely ground coffee beans under high pressure. It is known for its rich flavor, smooth body, and signature golden crema.",
+      "np": "एक सिंगल एस्प्रेसो (वा सोलो) उच्च दबाबमा तातो पानीलाई बारीक पिसिएको कफीबाट पारेर तयार गरिने १ औंसको गाढा कफी हो। यसको गहिरो स्वाद, मखमली बनावट र माथिको सुनौलो क्रेमाका कारण यो धेरै लोकप्रिय छ।"
+    }
+  },
+
+
+    {
+    "id" :2 ,
+    "name" : {
+        "en": "Americano" ,
+        "np": "अमेरिकानो कफी"
+    },
+    "price" : {
+        "en" : "NPR. 150" ,
+        "np" : "रु. १५०"
+    },
+    "category" : "drinks",
+    "subcategory" : "coffee",
+    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmVQuD4TU3d42WH23x6rD57ceU3mcrDUGbW7oltYvRnqGtGfQzHlkhGno&s=10" ,
+   "description": {
+    "en": "A smooth and refreshing coffee made by combining a shot of espresso with hot water. Americano has a rich coffee flavor with a lighter body, making it a perfect choice for those who enjoy a balanced and aromatic cup.",
+    "np": "एस्प्रेसोमा तातो पानी मिसाएर तयार गरिने एक स्वादिलो र ताजा कफी हो। अमेरिकानोको स्वाद गहिरो कफी जस्तो हुन्छ तर बनावट हल्का हुन्छ, जसले सन्तुलित र सुगन्धित कफी मन पराउनेहरूका लागि यो उत्कृष्ट विकल्प बनाउँछ।"
+}
+
+  }
+
+]
