@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bagaan Menu</title>
     <link rel="stylesheet" href="menu.css">
+    <link 
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     
@@ -25,16 +28,23 @@
 
 <header class="menu-header">
 
-    <div class="search-box">
+    <div class="search-container">
 
-        <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="search-box">
 
-        <input
-            type="text"
-            id="search"
-            data-placeholder="search"
-            placeholder="Search food or drinks..."
-        >
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+           <input 
+    id="search"
+    type="search"
+    placeholder="Search food or drinks..."
+    autocomplete="off"
+>
+
+        </div>
+
+
+        <div id="search-results"></div>
 
     </div>
 
@@ -79,36 +89,31 @@
 
 
     <!-- Drink Sub Categories -->
-
 <div class="drink-subcategories">
 
-    <button class="drink-category active" data-sub="all">
+    <button type="button" class="drink-category active" data-sub="all">
         <span class="drink-icon">🥤</span>
-        <span>All</span>
+        <span data-lang="all">All</span>
     </button>
 
-
-    <button class="drink-category" data-sub="coffee">
+    <button type="button" class="drink-category" data-sub="coffee">
         <span class="drink-icon">☕</span>
-        <span>Coffee</span>
+        <span data-lang="coffee">Coffee</span>
     </button>
 
-
-    <button class="drink-category" data-sub="tea">
+    <button type="button" class="drink-category" data-sub="tea">
         <span class="drink-icon">🍵</span>
-        <span>Tea</span>
+        <span data-lang="tea">Tea</span>
     </button>
 
-
-    <button class="drink-category" data-sub="cold">
+    <button type="button" class="drink-category" data-sub="cold">
         <span class="drink-icon">🧊</span>
-        <span>Cold Drinks</span>
+        <span data-lang="cold">Cold Drinks</span>
     </button>
 
-
-    <button class="drink-category" data-sub="juice">
+    <button type="button" class="drink-category" data-sub="juice">
         <span class="drink-icon">🧃</span>
-        <span>Juice</span>
+        <span data-lang="juice">Juice</span>
     </button>
 
 </div>
@@ -154,7 +159,7 @@
 </section>
 
 </main>
-</div>
+
     <script src="menu.js"></script>
 </body>
 </html>

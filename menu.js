@@ -17,7 +17,7 @@ const welcomeText = {
 const translations = {
 
     en: {
-
+        all :"All",
         drinks: "Drinks",
         burger: "Burger",
         pizza: "Pizza",
@@ -29,7 +29,7 @@ const translations = {
     },
 
     np: {
-
+        all :"सबै",
         drinks: "पेय पदार्थ",
         burger: "बर्गर",
         pizza: "पिज्जा",
@@ -207,7 +207,7 @@ function createCard(item){
     card.className = "menu-card";
 
 
-    // For search
+    // Search data
     card.dataset.search = 
     `
     ${item.name.en}
@@ -217,7 +217,7 @@ function createCard(item){
     `.toLowerCase();
 
 
-    // For subcategory filter
+    // Subcategory data
     card.dataset.subcategory = item.subcategory || "";
 
 
@@ -226,9 +226,13 @@ function createCard(item){
 
         <div class="card-image">
 
-            <img src="${item.image}" alt="${item.name[language]}">
+            <img 
+            src="${item.image}" 
+            alt="${item.name[language]}"
+            >
 
         </div>
+
 
         <div class="card-content">
 
@@ -236,9 +240,12 @@ function createCard(item){
 
             <p>${item.description[language]}</p>
 
+
             <div class="card-footer">
 
-                <span class="price">${item.price[language]}</span>
+                <span class="price">
+                    ${item.price[language]}
+                </span>
 
             </div>
 
@@ -246,11 +253,9 @@ function createCard(item){
 
     `;
 
-
     return card;
 
 }
-
 // menu js
 
 async function loadMenu() {
@@ -293,6 +298,28 @@ async function loadMenu() {
 
 loadMenu();
 
+document.addEventListener("click", (e)=>{
 
+    const clickedCard = e.target.closest(".menu-card");
+
+
+    if(!clickedCard) return;
+
+
+    document.querySelectorAll(".menu-card").forEach(card=>{
+
+        if(card !== clickedCard){
+
+            card.classList.remove("expanded");
+
+        }
+
+    });
+
+
+    clickedCard.classList.toggle("expanded");
+
+
+});
 
 

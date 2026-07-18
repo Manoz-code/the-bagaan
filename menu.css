@@ -1,24 +1,36 @@
-
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
+
 body{
-    font-family:Arial, Helvetica, sans-serif;
+
+    background:#F8F5F0;
+
+    font-family:Poppins, Arial, sans-serif;
+
+    overflow-x:hidden;
+
 }
 
 
-/* ===== Welcome Loader ===== */
+/* =========================
+        WELCOME LOADER
+========================= */
+
 
 #welcome-loader{
 
-    position: fixed;
-    inset: 0;
+    position:fixed;
+
+    inset:0;
 
     display:flex;
+
     justify-content:center;
+
     align-items:center;
 
     background:#F8F5F0;
@@ -29,17 +41,22 @@ body{
 
 }
 
+
 .loader-content{
 
     text-align:center;
 
 }
 
+
 .loader-logo{
 
     width:120px;
-    animation:logoFloat 2s ease-in-out infinite;
+
+    animation:logoFloat 2s infinite ease-in-out;
+
 }
+
 
 .loader-content h1{
 
@@ -50,37 +67,44 @@ body{
     color:#2F6B3D;
 
     letter-spacing:4px;
+
 }
+
+@media(max-width:600px){
+
+.loader-logo{
+    width:90px;
+}
+
+
+.loader-content h1{
+    font-size:2rem;
+}
+
+}
+
 
 #typing-text{
 
     margin-top:20px;
 
+    min-height:30px;
+
     font-size:1.2rem;
 
     color:#555;
 
-    min-height:30px;
 }
+
 
 #typing-text::after{
 
     content:"|";
 
     animation:blink .8s infinite;
-}
-
-#menu-content{
-
-    opacity:0;
-
-    transform:translateY(20px);
-
-    transition:1s ease;
 
 }
 
-/* Cursor */
 
 @keyframes blink{
 
@@ -92,15 +116,8 @@ body{
 
 }
 
-/* Floating Logo */
 
 @keyframes logoFloat{
-
-    0%,100%{
-
-        transform:translateY(0);
-
-    }
 
     50%{
 
@@ -111,171 +128,55 @@ body{
 }
 
 
+/* =========================
+        PAGE REVEAL
+========================= */
+
+
+#menu-content{
+
+    opacity:0;
+
+    transform:translateY(20px);
+
+    transition:1s ease;
+
+}
+
+
+
+/* =========================
+        SEARCH HEADER
+========================= */
 
 
 .menu-header{
 
     position:sticky;
+
     top:0;
+
+    z-index:1000;
 
     background:#F8F5F0;
 
     padding:20px;
 
-    z-index:1000;
-
-    box-shadow:0 2px 12px rgba(0,0,0,.08);
-
-}
-
-.search-box{
-
-    display:flex;
-    align-items:center;
-
-    background:white;
-
-    border-radius:50px;
-
-    padding:12px 18px;
-
-    gap:12px;
-
-    max-width:600px;
-
-    margin:auto;
-
-}
-
-.search-box i{
-
-    color:#2F6B3D;
-
-    font-size:18px;
-
-}
-
-.search-box input{
-
-    flex:1;
-
-    border:none;
-
-    outline:none;
-
-    font-size:16px;
-
-    background:transparent;
-
 }
 
 
-/* ---------- Grid ---------- */
-
-.menu-grid{
-
-    width:min(1200px,92%);
-    margin:auto;
-
-    display:grid;
-    gap:2rem;
-
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-
-}
-
-
-/* ---------- Card ---------- */
-
-.menu-card{
-
-    background:#fff;
-
-    border-radius:22px;
-
-    overflow:hidden;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
-
-    transition:.35s ease;
-
-}
-
-
-.menu-card:hover{
-
-    transform:translateY(-8px);
-
-    box-shadow:0 18px 45px rgba(0,0,0,.15);
-
-}
-
-
-/* ---------- Image ---------- */
-
-.card-image{
+.search-container{
 
     position:relative;
 
-    overflow:hidden;
+    max-width:700px;
 
-    height:240px;
-
-}
-
-.card-image img{
-
-    width:100%;
-    height:100%;
-
-    object-fit:cover;
-
-    transition:.4s;
-
-}
-
-.menu-card:hover img{
-
-    transform:scale(1.08);
-
-}
-
-
-
-
-/* ==========================
-      PAGE
-========================== */
-
-body{
-
-    margin:0;
-
-    background:#F8F5F0;
-
-    font-family:Poppins,sans-serif;
-
-}
-
-/* ==========================
-      SEARCH
-========================== */
-
-.menu-header{
-
-    position:sticky;
-
-    top:0;
-
-    background:#F8F5F0;
-
-    padding:20px;
-
-    z-index:1000;
+    margin:auto;
 
 }
 
 .search-box{
+  
 
     max-width:700px;
 
@@ -285,23 +186,26 @@ body{
 
     align-items:center;
 
-    background:white;
+    gap:12px;
 
-    border-radius:50px;
+    background:white;
 
     padding:14px 20px;
 
-    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    border-radius:50px;
+
+    box-shadow:
+    0 8px 25px rgba(0,0,0,.08);
 
 }
+
 
 .search-box i{
 
     color:#2F6B3D;
 
-    font-size:18px;
-
 }
+
 
 .search-box input{
 
@@ -311,27 +215,53 @@ body{
 
     outline:none;
 
-    margin-left:15px;
-
     background:none;
 
     font-size:16px;
 
 }
+#search-results{
 
-/* ==========================
-      CATEGORY BAR
-========================== */
+    position:absolute;
+
+    top:75px;
+    left:50%;
+    transform:translateX(-50%);
+
+    width:min(700px,90%);
+
+    background:white;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.15);
+
+    max-height:400px;
+
+    overflow-y:auto;
+
+    display:none;
+
+    z-index:2000;
+
+}
+
+
+
+/* =========================
+        CATEGORY BAR
+========================= */
+
 
 .category-nav{
 
+
     position:sticky;
 
-    top:90px;
+    top:85px;
 
     z-index:999;
-
-    background:#F8F5F0;
 
     display:flex;
 
@@ -339,11 +269,14 @@ body{
 
     padding:15px 20px;
 
+    background:#F8F5F0;
+
     overflow-x:auto;
 
     scrollbar-width:none;
 
 }
+
 
 .category-nav::-webkit-scrollbar{
 
@@ -351,9 +284,13 @@ body{
 
 }
 
+
 .category{
 
+
     text-decoration:none;
+
+    white-space:nowrap;
 
     color:#555;
 
@@ -363,22 +300,16 @@ body{
 
     border-radius:40px;
 
-    white-space:nowrap;
+    box-shadow:
+    0 5px 15px rgba(0,0,0,.08);
 
     transition:.3s;
 
-    box-shadow:0 5px 15px rgba(0,0,0,.08);
-
 }
 
-.category:hover{
 
-    background:#2F6B3D;
 
-    color:white;
-
-}
-
+.category:hover,
 .category.active{
 
     background:#2F6B3D;
@@ -387,19 +318,21 @@ body{
 
 }
 
-/* ==========================
-      SECTION
-========================== */
+
+
+/* =========================
+        SECTION
+========================= */
+
 
 .menu-section{
 
     width:min(1200px,92%);
 
-    margin:80px auto;
-
-    min-height:500px;
+    margin:70px auto;
 
 }
+
 
 .menu-section h2{
 
@@ -407,19 +340,34 @@ body{
 
     font-size:2rem;
 
+    margin-bottom:25px;
+
 }
+
+
+
+/* =========================
+        MENU GRID
+========================= */
+
 
 .menu-grid{
 
     display:grid;
 
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    grid-template-columns:
+    repeat(auto-fit,minmax(260px,1fr));
 
     gap:30px;
 
-    margin-top:25px;
-
 }
+
+
+
+/* =========================
+        MENU CARD
+========================= */
+
 
 .menu-card{
 
@@ -429,19 +377,37 @@ body{
 
     overflow:hidden;
 
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.08);
 
-    transition:.35s;
+
+    cursor:pointer;
+
+    position:relative;
+
+
+    transition:
+    transform .35s ease,
+    box-shadow .35s ease;
 
 }
+
+
 
 .menu-card:hover{
 
     transform:translateY(-8px);
 
-    box-shadow:0 20px 40px rgba(0,0,0,.12);
+    box-shadow:
+    0 20px 40px rgba(0,0,0,.15);
 
 }
+
+
+
+/* IMAGE */
+
+/* IMAGE */
 
 .card-image{
 
@@ -449,7 +415,19 @@ body{
 
     overflow:hidden;
 
+    background:#faf8f3;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    transition:.35s;
+
 }
+
+
 
 .card-image img{
 
@@ -459,9 +437,10 @@ body{
 
     object-fit:cover;
 
-    transition:.4s;
+    transition:transform .4s ease;
 
 }
+
 
 .menu-card:hover img{
 
@@ -469,11 +448,18 @@ body{
 
 }
 
+
+
+/* CONTENT */
+
+
 .card-content{
 
     padding:20px;
 
 }
+
+
 
 .card-content h3{
 
@@ -483,6 +469,8 @@ body{
 
 }
 
+
+
 .card-content p{
 
     color:#666;
@@ -490,6 +478,8 @@ body{
     line-height:1.6;
 
 }
+
+
 
 .card-footer{
 
@@ -501,15 +491,24 @@ body{
 
 }
 
+
+
 .price{
+
+    color:#C8A45D;
 
     font-size:1.2rem;
 
     font-weight:700;
 
-    color:#C8A45D;
-
 }
+
+
+
+
+/* =========================
+        DRINK SUB CATEGORY
+========================= */
 
 
 .drink-subcategories{
@@ -522,11 +521,10 @@ body{
 
     overflow-x:auto;
 
-    scroll-behavior:smooth;
-
     scrollbar-width:none;
 
 }
+
 
 
 .drink-subcategories::-webkit-scrollbar{
@@ -536,7 +534,6 @@ body{
 }
 
 
-/* Individual card */
 
 .drink-category{
 
@@ -550,9 +547,7 @@ body{
 
     border-radius:22px;
 
-    background:#ffffff;
-
-    cursor:pointer;
+    background:white;
 
     display:flex;
 
@@ -564,25 +559,18 @@ body{
 
     gap:8px;
 
-    font-size:15px;
+    cursor:pointer;
 
-    font-weight:500;
-
-    color:#333;
 
     box-shadow:
-    0 8px 20px rgba(0,0,0,0.08);
+    0 8px 20px rgba(0,0,0,.08);
 
-    transition:
-    transform .3s ease,
-    box-shadow .3s ease,
-    background .3s ease;
+
+    transition:.3s;
 
 }
 
 
-
-/* Icon */
 
 .drink-icon{
 
@@ -592,60 +580,211 @@ body{
 
 
 
-/* Hover */
-
-.drink-category:hover{
-
-    transform:translateY(-6px);
-
-    box-shadow:
-    0 15px 30px rgba(0,0,0,0.15);
-
-}
-
-
-
-/* Active button */
-
+.drink-category:hover,
 .drink-category.active{
 
-    background:#2f6b3d;
+    background:#2F6B3D;
 
     color:white;
 
-    transform:translateY(-4px);
-
-    box-shadow:
-    0 12px 25px rgba(47,107,61,.35);
+    transform:translateY(-5px);
 
 }
 
+
+
+
+/* =========================
+        EXPAND CARD
+========================= */
+
+
+.menu-card.expanded{
+
+
+    transform:scale(1.05);
+
+    z-index:10;
+
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.2);
+
+}
+
+
+
+.menu-card.expanded .card-image{
+
+    height:180px;
+
+}
+
+
+.menu-card .card-content p{
+
+    display:-webkit-box;
+
+    -webkit-line-clamp:2;
+
+    -webkit-box-orient:vertical;
+
+    overflow:hidden;
+
+}
+
+
+.menu-card.expanded p{
+
+    display:block;
+
+}
+
+
+
+
+
+/* =========================
+        MOBILE
+========================= */
+
+
 @media(max-width:600px){
 
-    .drink-subcategories{
 
-        gap:12px;
+.menu-header{
 
-        padding:15px 0;
+    padding:15px;
 
-    }
-
-
-    .drink-category{
-
-        width:90px;
-
-        height:85px;
-
-        border-radius:18px;
-
-    }
+}
 
 
-    .drink-icon{
 
-        font-size:28px;
+.category-nav{
 
-    }
+    top:75px;
+
+}
+
+
+
+.menu-section{
+
+    margin:40px auto;
+
+}
+
+
+
+.menu-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:12px;
+
+}
+
+
+
+.card-image{
+
+    height:100px;
+
+}
+
+
+
+.card-content{
+
+    padding:10px;
+
+}
+
+
+
+.card-content h3{
+
+    font-size:14px;
+
+}
+
+
+
+.card-content p{
+
+    font-size:12px;
+
+}
+
+
+
+.price{
+
+    font-size:13px;
+
+}
+
+
+
+.drink-category{
+
+    width:90px;
+
+    height:85px;
+
+}
+
+
+
+.drink-icon{
+
+    font-size:28px;
+
+}
+
+
+
+.menu-card.expanded{
+
+    transform:scale(1.03);
+
+}
+
+
+
+.menu-card.expanded .card-image{
+
+    height:160px;
+
+}
+
+
+
+#search-results{
+
+    position:absolute;
+
+    top:75px;
+    left:50%;
+    transform:translateX(-50%);
+
+    width:min(700px,90%);
+
+    background:white;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.15);
+
+    max-height:400px;
+
+    overflow-y:auto;
+
+    display:none;
+
+    z-index:2000;
+
+}
 
 }

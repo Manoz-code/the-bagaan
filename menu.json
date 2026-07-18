@@ -18,9 +18,30 @@
     }
   },
 
+   {
+"id" : 2,
+"name" : {
+  "en" : "Espresso (Double)",
+  "np" : "डबल एस्प्रेसो"
+},
+"price" : {
+  "en" : "NPR 120",
+  "np" : "रु. १२०"
+},
+"category": "drinks",
+"subcategory" : "coffee",
+ "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjCPO8YPPgwJ6joz7G05LUsd_ZAs4lKPtJ26XW3fBN4kBTvVldxpNvlrI&s=10",
+ "description" : {
+  "en" : "A rich and intense coffee made with two shots of espresso, offering a bold flavor, strong aroma, and smooth finish.",
+  "np" : "दुई शट एस्प्रेसोबाट बनेको गाढा र स्वादिष्ट कफी, जसले बलियो स्वाद, सुगन्ध र मिठासपूर्ण अनुभव प्रदान गर्दछ।"
+ }
+
+
+ },
+
 
     {
-    "id" :2 ,
+    "id" :3,
     "name" : {
         "en": "Americano" ,
         "np": "अमेरिकानो कफी"
@@ -37,6 +58,127 @@
     "np": "एस्प्रेसोमा तातो पानी मिसाएर तयार गरिने एक स्वादिलो र ताजा कफी हो। अमेरिकानोको स्वाद गहिरो कफी जस्तो हुन्छ तर बनावट हल्का हुन्छ, जसले सन्तुलित र सुगन्धित कफी मन पराउनेहरूका लागि यो उत्कृष्ट विकल्प बनाउँछ।"
 }
 
+  },
+
+  {
+    "id" : 4,
+    "name" : {
+      "en" : "Espresso Macchiato",
+      "np" : "एस्प्रेसो म्याकियाटो"
+    },
+    "price" : {
+      "en" : "NPR 140",
+      "np": "रु. १४०"
+    },
+    "category": "drinks",
+    "subcategory" : "coffee",
+    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYMTpeBGiYvDYxtNYZe7dvSquLN4_FgzyCnl7dZOp0al04fLtLqB4JZ485&s=10",
+    "description" : {
+      "en" : "A classic Italian coffee made with a shot of espresso topped with a small amount of steamed milk foam, creating a bold flavor with a creamy touch.",
+      "np" :  "एस्प्रेसोमा थोरै बाफ दिइएको दूधको फोम थपेर बनाइएको परम्परागत इटालियन कफी, जसले गाढा स्वादसँगै क्रीमी अनुभव प्रदान गर्दछ।"
+    }
+
+  },
+
+{
+"id" : 5,
+"name": {
+  "en" : "Espresso Affogato",
+  "np" : "एस्प्रेसो अफोगाटो"
+},
+"price" : {
+  "en": "NPR. 160",
+  "np" : "रु. १६०"
+},
+"category" : "drinks",
+"subcategory": "coffee",
+"image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXBUAUd1S6gWeBVkkdCtSa-zp7bIffP3h26ko0F3soM6iwsZKaRGt31RsL&s=10",
+"description" : {
+
+  "en" : "A delicious Italian dessert made by pouring a hot shot of espresso over creamy vanilla ice cream, creating a perfect blend of bold coffee flavor and sweet, creamy indulgence.",
+  "np" : "क्रीमी भेनिला आइसक्रिममाथि तातो एस्प्रेसो खन्याएर बनाइने स्वादिष्ट इटालियन डेजर्ट, जसले गाढा कफीको स्वाद र आइसक्रिमको मिठासको उत्कृष्ट संयोजन प्रदान गर्दछ।"
+}
+
+},
+
+
+{
+  "id" : 6,
+  "name" : {
+    "en" : "Cappuccino",
+    "np" : "क्यापुचिनो"
+  },
+  "price" : {
+    "en" : "NPR. 200",
+    "np" : "रु. २००"
+  },
+  "category" : "drinks",
+  "subcategory" : "coffee",
+
+  "image" : "https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?s=612x612&w=0&k=20&c=h7v8kAfWOpRapv6hrDwmmB54DqrGQWxlhP_mTeqTQPA=",
+  "description" : {
+    "en"  : "A classic Italian coffee made with espresso, steamed milk, and a thick layer of milk foam, offering a rich aroma, creamy texture, and perfectly balanced flavor.",
+    "np" : "एस्प्रेसो, बाफ दिइएको दूध र बाक्लो दूधको फोमबाट तयार गरिने परम्परागत इटालियन कफी। यसले गाढा कफीको स्वाद, मनमोहक सुगन्ध र नरम, क्रीमी बनावटको उत्कृष्ट अनुभव प्रदान गर्दछ।"
   }
+},
+
+{
+  "id" : 7,
+  "name" : {
+    "en" : "Cafe Latte(Hot/Ice)",
+    "np" : "क्याफे लाटे (तातो/चिसो)"
+
+  },
+  "price" : {
+    "en" : "NPR 200",
+    "np" : "रु. २००"
+  },
+  "category" : "drinks",
+  "subcategory" : "coffee",
+  "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQWH6GD2SoFciqAwca2FI_AZDWmvGGowBFG8maKH_-TGuV1YSpgDtJuPUY&s=10",
+  "description" : {
+    "en" : "A smooth and creamy coffee made with rich espresso and steamed milk, served hot or over ice for a comforting or refreshing experience.",
+    "np" : "गाढा एस्प्रेसो र बाफ दिइएको दूधको उत्कृष्ट मिश्रणबाट तयार गरिने मखमली कफी। यसलाई तातो वा बरफसहित चिसो रूपमा पस्किन्छ, जसले प्रत्येक घूँटमा नरम स्वाद र सन्तुलित कफीको अनुभव प्रदान गर्दछ।"
+  }
+},
+
+{
+  "id" : 8,
+"name" : {
+  "en" : "Caramel Latte(Hot/Ice)",
+  "np" : "क्यारामेल लाटे (तातो/चिसो)"
+},
+"price" : {
+  "en" : "NPR. 250",
+  "np" : "रु. २५०"
+},
+"category" : "drinks",
+"subcategory": "coffee",
+"image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLa2GWIY2FmDwod16G4ctYjVhp_FkL4-OJODA0TAAe38gxxQ-5fouubqE9&s=10",
+"description" : {
+  "en" : "A delightful blend of rich espresso, steamed milk, and smooth caramel syrup, served hot or over ice for a creamy coffee with a touch of sweet caramel flavor.",
+  "np" : "गाढा एस्प्रेसो, बाफ दिइएको दूध र मिठो क्यारामेल सिरपको उत्कृष्ट मिश्रणबाट तयार गरिने स्वादिष्ट कफी। यसलाई तातो वा बरफसहित चिसो रूपमा पस्किन्छ, जसले क्रीमी बनावट र क्यारामेलको मिठाससँग सन्तुलित कफीको स्वाद प्रदान गर्दछ।"
+}
+},
+{
+      "id" : 9,
+    "name" : {
+        "en": "Vanilla Late(Hot/Ice)",
+        "np": "भेनिला लाटे (तातो/चिसो)"
+    },
+    "price" : {
+        "en" : "NPR. 250",
+        "np" : "रु. २५०"
+    },
+    "category" : "drinks",
+    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA_4zgMEdpT2CMvEmfk2xDgQWqvlCyIrcyN_9ofNWdXsYh_KHP-kpX27Y&s=10",
+    "description": {
+        "en": "A smooth blend of rich espresso, steamed milk, and sweet vanilla syrup, served hot or iced for a creamy and comforting coffee experience.",
+        "np":"गाढा एस्प्रेसो, बाफ दिइएको दूध र मीठो भेनिला सिरपको उत्कृष्ट मिश्रणबाट तयार गरिने स्वादिष्ट कफी। यसलाई तातो वा बरफसहित चिसो रूपमा पस्किन्छ, जसले क्रीमी बनावट, भेनिलाको मिठास र सन्तुलित कफीको स्वाद प्रदान गर्दछ।"
+    }
+
+},{
+  
+}
 
 ]
