@@ -788,3 +788,111 @@ body{
 }
 
 }
+
+.soft-drink-icon{
+    color: #C9A227;
+}
+
+
+.size-list{
+    margin-top:18px;
+    border-top:1px solid #ececec;
+    padding-top:12px;
+}
+
+.size-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:8px 0;
+
+    font-size:.95rem;
+
+    border-bottom:1px dashed #ddd;
+
+}
+
+.size-row:last-child{
+
+    border-bottom:none;
+
+}
+
+.size-row span:first-child{
+
+    font-weight:600;
+
+}
+
+.size-row span:last-child{
+
+    color:#8B6B2E;
+    font-weight:700;
+
+}
+
+/* Hard drink bottle image */
+
+.liquor-card .card-image{
+
+    height:260px;
+    background:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.liquor-card .card-image img{
+
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    padding:15px;
+
+}
+
+
+/* Size list */
+
+.size-list{
+
+    margin-top:15px;
+    border-top:1px solid #e6e6e6;
+
+}
+
+.size-row{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:10px 0;
+
+    border-bottom:1px dashed #ddd;
+
+}
+
+.size-row:last-child{
+
+    border-bottom:none;
+
+}
+
+.size-row span:first-child{
+
+    font-weight:600;
+
+}
+
+.size-row span:last-child{
+
+    font-weight:700;
+    color:#8B6B2E;
+
+}

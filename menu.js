@@ -200,47 +200,54 @@ drinkButtons.forEach(button => {
 
 });
 
-function createCard(item){
+function createCard(item) {
 
     const card = document.createElement("article");
 
-    card.className = "menu-card";
-
+    // Add special class for liquor cards
+    card.className = item.subcategory === "hard-drink"
+        ? "menu-card liquor-card"
+        : "menu-card";
 
     // Search data
-    card.dataset.search = 
-    `
-    ${item.name.en}
-    ${item.name.np}
-    ${item.description.en}
-    ${item.description.np}
+    card.dataset.search = `
+        ${item.name.en}
+        ${item.name.np}
+        ${item.description.en}
+        ${item.description.np}
     `.toLowerCase();
 
-
-    // Subcategory data
+    // Subcategory
     card.dataset.subcategory = item.subcategory || "";
 
+    // -----------------------------
+    // PRICE / SIZE SECTION
+    // -----------------------------
 
+    let footerHTML = "";
 
-    card.innerHTML = `
+    // Hard drinks with multiple sizes
+    if (Array.isArray(item.sizes)) {
 
-        <div class="card-image">
+        footerHTML = `
+            <div class="size-list">
 
-            <img 
-            src="${item.image}" 
-            alt="${item.name[language]}"
-            >
+                ${item.sizes.map(size => `
+                    <div class="size-row">
+                        <span>${size.size[language]}</span>
+                        <span>${size.price[language]}</span>
+                    </div>
+                `).join("")}
 
-        </div>
+            </div>
+        `;
 
+    }
 
-        <div class="card-content">
+    // Normal menu item
+    else {
 
-            <h3>${item.name[language]}</h3>
-
-            <p>${item.description[language]}</p>
-
-
+        footerHTML = `
             <div class="card-footer">
 
                 <span class="price">
@@ -248,13 +255,39 @@ function createCard(item){
                 </span>
 
             </div>
+        `;
+
+    }
+
+    // -----------------------------
+    // CARD HTML
+    // -----------------------------
+
+    card.innerHTML = `
+
+        <div class="card-image">
+
+            <img
+                src="${item.image || "images/default-food.jpg"}"
+                alt="${item.name[language]}"
+                loading="lazy"
+            >
+
+        </div>
+
+        <div class="card-content">
+
+            <h3>${item.name[language]}</h3>
+
+            <p>${item.description[language]}</p>
+
+            ${footerHTML}
 
         </div>
 
     `;
 
     return card;
-
 }
 // menu js
 

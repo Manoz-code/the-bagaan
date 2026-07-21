@@ -178,7 +178,1568 @@
     }
 
 },{
-  
-}
+  "id" : 10,
+  "name" : {
+    "en" : "Café Mocha (Hot/Ice)",
+    "np" : "क्याफे मोचा (तातो/चिसो)"
+  },
+  "price": {
+    "en" : "NPR 250",
+    "np" : "रु. २५०"
+  },
+  "category": "drinks",
+  "image" : "https://www.shutterstock.com/image-photo/frosty-mocha-iced-coffee-chocolate-260nw-2703295129.jpg",
+  "subcategory" : "coffee",
+  "description" : {
+    "en" : "A rich and indulgent coffee made with espresso, steamed milk, and chocolate, served hot or iced for a perfect balance of bold coffee and creamy chocolate flavor.",
+    "np" : "गाढा एस्प्रेसो, बाफ दिइएको दूध र चकलेटको उत्कृष्ट मिश्रणबाट तयार गरिने स्वादिष्ट कफी। यसलाई तातो वा बरफसहित चिसो रूपमा पस्किन्छ, जसले गाढा कफीको स्वाद र क्रीमी चकलेटको मिठासको उत्कृष्ट संयोजन प्रदान गर्दछ।"
+  }
+},
 
+{
+  "id" : 11,
+  "name" : {
+    "en" : "Spanish Latte(Hot/Ice)",
+    "np" : "स्पेनिस लाटे (तातो/चिसो)"
+  },
+  "price" : {
+    "en" : "NPR 250",
+    "np" : "रु. २५०"
+  },
+  "category" : "drinks",
+  "subcategory" : "coffee",
+  "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmDGhTuvK8Ihs0xW5dlRCq7uyMvk2xRFR-4hx2ojN0ucoBTbFfFChlV9w&s=10",
+
+  "description" : {
+    "en" : "A smooth and creamy coffee made with rich espresso, steamed milk, and sweetened condensed milk, served hot or iced for a rich and velvety flavor.",
+    "np" :  "गाढा एस्प्रेसो, बाफ दिइएको दूध र मीठो कन्डेन्स्ड मिल्कको मिश्रणबाट तयार गरिने मखमली कफी। यसलाई तातो वा बरफसहित चिसो रूपमा पस्किन्छ, जसले क्रीमी बनावट, हल्का मिठास र गाढा कफीको सन्तुलित स्वाद प्रदान गर्दछ।"
+  }
+},
+
+{
+  "id" : 12,
+  "name" : {
+    "en" : "Mike Tea",
+    "np" : "दूध चिया"
+  },
+  "price" : {
+    "en" : "NPR.60",
+    "np" : "रु. ६०"
+  },
+  "category" : "drinks",
+  "subcategory" : "tea",
+  "image" : "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2023-12-milk-tea%2Fmilk-tea-587",
+  "description" : {
+    "en" : "A smooth and comforting blend of premium tea leaves and fresh milk, perfectly brewed for a rich, creamy flavor. Served hot or over ice for a refreshing twist.",
+    "np" : "उत्कृष्ट चिया पत्ती र ताजा दूधको उत्कृष्ट मिश्रणबाट तयार गरिएको, गाढा, मखमली र स्वादिष्ट चिया। तातो वा चिसो, दुवै रूपमा स्वाद लिन सकिने।"
+  }
+},
+
+{
+  "id" : 13,
+  "name" : {
+    "en" : "Black Tea",
+    "np" : "कालो चिया"
+  },
+  "price" : {
+   "en" : "NPR.40",
+   "np" : "रु. ४०"
+  },
+  "category" : "drinks",
+  "subcategory" : "tea",
+  "image" : "https://static.vecteezy.com/system/resources/thumbnails/048/241/123/small/glass-cup-of-hot-aromatic-tea-with-leaves-on-clear-white-background-photo.JPG",
+  "description" : {
+    "en"  : "A refreshing cup of premium tea brewed from carefully selected tea leaves, delivering a bold aroma and clean, authentic flavor without milk.",
+    "np"  : "रोजाइएका उत्कृष्ट चिया पत्तीबाट दूध बिना तयार गरिएको सुगन्धित र ताजगीपूर्ण चिया, जसले शुद्ध र प्राकृतिक स्वादको अनुभव गराउँछ।"
+  }
+},{
+  "id" : 14,
+  "name" : {
+    "en" : "Lemon Tea",
+    "np" :  "कागती चिया"
+  },
+  "price" : {
+    "en" : "NPR.60",
+    "np" : "रु. ६०"
+  },
+  "category" : "drinks",
+  "subcategory" : "tea",
+  "image" :  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVN2QR8BlUn9h8c9Xa0NDA0Xhai5NRwdWixax46G-CbY8D-HdfMseYGU--&s=10",
+  "description" : {
+     "en" : "A refreshing blend of premium black tea and fresh lemon, offering a light citrus aroma and a perfectly balanced sweet and tangy flavor.",
+     "np" : "उत्कृष्ट कालो चिया र ताजा कागतीको मिश्रणबाट तयार गरिएको ताजगीपूर्ण चिया, जसले हल्का कागतीको सुगन्ध र गुलियो–अमिलो स्वादको सन्तुलित अनुभव प्रदान गर्छ।"
+  }
+},
+{
+  "id" : 15,
+  "name" : {
+    "en" : "Hot Lemon With Honey",
+    "np" : "तातो कागती मह पेय"
+  },
+  "price" : {
+    "en" : "NPR.`120",
+    "np" : "रु. १२०"
+  },
+  "category" : "drinks",
+  "subcategory" : "tea",
+   "image" : "https://media.istockphoto.com/id/1214977517/photo/cup-of-tea-with-pouring-honey-and-lemon-grey-background.jpg?s=612x612&w=0&k=20&c=qqx5YK7Y89QvSsgf6Z6yAsfhh9EO0GFL-4FTyr0_Kac=",
+   "description" : {
+    "en" : "A soothing and refreshing drink made with fresh lemon, pure honey, and hot water. Perfect for a comforting, naturally sweet citrus experience.",
+    "np" : "ताजा कागती, शुद्ध मह र तातो पानीको मिश्रणबाट तयार गरिएको स्फूर्तिदायी पेय। प्राकृतिक मिठास र कागतीको ताजगीले भरिएको, आरामदायी स्वादको उत्कृष्ट छनोट।"
+   }
+},{
+  "id" : 16,
+  "name" : {
+    "en" : "Hot Chocolate",
+    "np" : "तातो चकलेट"
+  }, 
+  "price" : {
+    "en" : "NPR.200",
+    "np" : "रु. २००"
+  }, 
+  "category" : "drinks",
+  "subcategory" : "tea",
+   "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ80FF2Isx2Ty9nURbPzlAkNz5H1b1EbMPjUCbA5_wtK9Rei7eve0yWGkC&s=10",
+    "description" : {
+      "en" : "A rich and creamy hot chocolate made with premium cocoa and fresh milk, creating a smooth, velvety, and comforting drink for every chocolate lover.",
+      "np" : "उत्कृष्ट कोको र ताजा दूधबाट तयार गरिएको गाढा, मखमली र स्वादिष्ट तातो चकलेट पेय। चकलेट प्रेमीहरूका लागि न्यानो र सन्तुष्टिदायी छनोट।"
+    }
+},
+
+ {
+   "id" : 17,
+   "name" : {
+    "en"  : "Grean Tea",
+   "np" : "हरियो चिया"
+   }, 
+   "price" : {
+    "en" : "NPR.120",
+    "np" : "रु. १२०"
+   },
+  "category" : "drinks",
+  "subcategory" : "tea",
+  "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGktyDkY2TwfDlEwKc7-VdIV1E8atlTA58ziEocc2rdI8b4XBu6P70VQUx&s=10",
+  "description" : {
+    "en" : "A light and refreshing tea made from premium green tea leaves, offering a delicate aroma and a naturally soothing flavor. A perfect choice for a calming tea experience.",
+    "np" : "उत्कृष्ट हरियो चिया पत्तीबाट तयार गरिएको हल्का, सुगन्धित र ताजगीपूर्ण चिया। प्राकृतिक स्वाद र शान्त अनुभूति प्रदान गर्ने उत्कृष्ट छनोट।"
+  }
+  }, {
+    "id" :18,
+    "name" : {
+      "en" : "Chocolate Milkshake",
+      "np" : "चकलेट मिल्कशेक"
+    },
+    "price" : {
+      "en" : "NPR.180",
+      "np" : "१८०"
+    },
+     "category" : "drinks",
+     "subcategory" : "milk-shake",
+     "image" : "https://img.magnific.com/free-psd/delicious-chocolate-milkshake-with-whipped-cream-shavings_84443-72595.jpg?semt=ais_hybrid&w=740&q=80",
+     "description" : {
+      "en" : "A rich and creamy milkshake made with premium chocolate, fresh milk, and ice cream, blended to perfection for a smooth and indulgent treat.",
+       "np" :"उत्कृष्ट चकलेट, ताजा दूध र आइसक्रिमको मिश्रणबाट तयार गरिएको गाढा, मखमली र स्वादिष्ट मिल्कशेक। प्रत्येक घुट्कामा चकलेटको भरिपूर्ण स्वादको आनन्द लिन सकिने उत्कृष्ट पेय।"
+     }
+  }, {
+     "id" : 19,
+     "name" : {
+      "en" : "Vanilla Milkshake", 
+      "np" : "भेनिला मिल्कशेक"
+     }, 
+     "price" : {
+      "en" : "NPR.180",
+      "np" : ": रु.१८०"
+     }, 
+     "category" : "drinks",
+     "subcategory" : "milk-shake",
+     "image" :  "https://t3.ftcdn.net/jpg/09/60/78/54/360_F_960785479_duR0GPpLbu7WaQMJPsg2Tn2Dp9NXSxz0.jpg",
+     "description" : {
+      "en" : "A smooth and creamy milkshake made with premium vanilla, fresh milk, and ice cream, offering a rich, sweet, and refreshing flavor in every sip.", 
+      "np" : "उत्कृष्ट भेनिला, ताजा दूध र आइसक्रिमको मिश्रणबाट तयार गरिएको मखमली, गाढा र मिठासयुक्त मिल्कशेक। प्रत्येक घुट्कामा भेनिलाको मनमोहक स्वाद र ताजगीको अनुभव दिलाउने उत्कृष्ट पेय।"
+     }
+   }, {
+    "id" : 20,
+    "name" : {
+      "en" : "Strawberry Milkshake",
+      "np" : "स्ट्रबेरी मिल्कशेक"
+    }, 
+    "price" : {
+      "en" : "NPR.180",
+      "np" : "रु. १८०"
+    },
+    "category" : "drinks",
+    "subcategory" : "milk-shake",
+    "image" : "https://www.sharmispassions.com/wp-content/uploads/2012/02/StrawberryMilkshake4.jpg",
+    "description" : {
+      "en" : "A refreshing and creamy milkshake made with sweet strawberries, fresh milk, and ice cream, blended to create a smooth, fruity, and delicious treat.",
+      "np" : "मीठो स्ट्रबेरी, ताजा दूध र आइसक्रिमको मिश्रणबाट तयार गरिएको मखमली, फलफूलको स्वादले भरिएको स्वादिष्ट मिल्कशेक। प्रत्येक घुट्कामा स्ट्रबेरीको ताजगी र मिठासको आनन्द दिलाउने उत्कृष्ट पेय।"
+    }
+   }, {
+    "id" : 21,
+    "name" : {
+      "en" : "Bagan Milkshake", 
+      "np" : "बगान स्पेशल मिल्कशेक"
+    },
+      "price" : {
+        "en" : "NPR 200",
+        "np"  : "रु. २००"
+      },
+      "category" : "drinks",
+      "subcategory" : "milk-shake", 
+      "image" : "",
+      "description" : {
+        "en" : "Our signature milkshake, crafted with premium ice cream, fresh milk, chocolate, vanilla, seasonal fruits, and a touch of our special recipe. Rich, creamy, and uniquely refreshing—an exclusive Bagaan favorite.",
+        "np" : "ताजा दूध, उत्कृष्ट आइसक्रिम, चकलेट, भेनिला, मौसमी फलफूल र बगानको विशेष रेसिपीबाट तयार गरिएको हाम्रो सिग्नेचर मिल्कशेक। गाढा, मखमली र ताजगीपूर्ण स्वादले भरिएको बगानको विशेष पेय।"
+      }
+   
+   }, {
+    "id" : 22,
+    "name" : {
+      "en" : "Banana Date Smoothie",
+      "np" : "केरा–खजुर स्मुदी"
+    }, 
+    "price" :  {
+      "en" : "NPR 250",
+       "np" : ": रु. २५०"
+    }, 
+    "category" : "drinks",
+    "subcategory" : "milk-shake",
+    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_oD1CICPIbSsoPTAvMl5S6xUDz9PgiLKmBva7Ek3kVA6IwZMYX5XbB58&s=10",
+    "description" :{
+      "en" : "A naturally sweet and creamy smoothie made with ripe bananas, premium dates, fresh milk, and yogurt. Rich in flavor and packed with wholesome goodness, it's the perfect refreshing drink.",
+      "np" :"पाकेको केरा, उत्कृष्ट खजुर, ताजा दूध र दहीको मिश्रणबाट तयार गरिएको प्राकृतिक रूपमा मिठासयुक्त, गाढा र पौष्टिक स्मुदी। स्वाद र ऊर्जाले भरिएको ताजगीपूर्ण पेय।"
+    }
+   },  {
+    "id" :23,
+    "name" : {
+      "en" : "Mango / Pineapple Smoothie",
+      "np" : "आँप / भुइँकटहर स्मुदी"
+    }, 
+    "price" : {
+      "en" : "NPR 240",
+      "np" : "रु. २४०"
+    },
+    "category" : "drinks",
+    "subcategory" : "milk-shake",
+    "image" : "https://www.shutterstock.com/image-photo/tropical-fruit-smoothie-mango-pineapple-260nw-2706249583.jpg",
+    "description" : {
+      "en" : "A refreshing and creamy smoothie made with fresh mango or pineapple, blended with yogurt and ice for a naturally sweet, tropical flavor.",
+      "np" : "ताजा आँप वा भुइँकटहर, दही र बरफको मिश्रणबाट तयार गरिएको चिसो, मखमली र ताजगीपूर्ण स्मुदी। प्राकृतिक मिठास र उष्णकटिबन्धीय स्वादले भरिएको उत्कृष्ट पेय।"
+    }
+   } ,
+  {
+    "id" : 24,
+    "name" : {
+      "en" : "Sweet Lassi(Plain)",
+      "np" : "मिठो लस्सी (सादा)"
+    },
+    "price" : {
+      "en"  : "NPR 140",
+      "np" : "रु. १४०"
+    },
+    "category" : "drinks",
+    "subcategory" : "lassi",
+    "image" : "https://www.indianveggiedelight.com/wp-content/uploads/2023/01/sweet-lassi-recipe-1.jpg",
+    "description" : {
+      "en" : "A traditional, creamy yogurt drink blended to perfection with a touch of sweetness. Smooth, refreshing, and perfect for cooling down any time of the day.", 
+      "np" : "ताजा दही र हल्का मिठासको मिश्रणबाट तयार गरिएको परम्परागत, मखमली र ताजगीपूर्ण लस्सी। दिनभरि स्फूर्ति र शीतलता प्रदान गर्ने उत्कृष्ट पेय।"
+    }
+  } ,
+  {
+    "id" : 25,
+    "name" :{
+      "en" : "Mango Lassi",
+      "np" : "आँप लस्सी"
+    }, 
+    "price"  : {
+      "en" : "NPR 200", 
+      "np" : "रु. २००"
+    },
+    "category" : "drinks",
+   "subcategory"  : "lassi",
+   "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVx8xt0uIkg4UlfWllV6rhZuSc2ONucydKfrPl97ucb2_Drk5nqnuj1ow&s=10",
+   "description" : {
+    "en" : "A creamy and refreshing blend of fresh mango, rich yogurt, and a touch of sweetness. A delicious tropical drink with a smooth, velvety texture.",
+    "np" : "ताजा आँप, गाढा दही र हल्का मिठासको मिश्रणबाट तयार गरिएको मखमली, स्वादिष्ट र ताजगीपूर्ण लस्सी। प्रत्येक घुट्कामा आँपको प्राकृतिक मिठास र दहीको शीतल स्वादको आनन्द।"
+   }
+  }, {
+    "id" : 26,
+    "name" : {
+      "en": "Banana Lassi",
+      "np" : "केरा लस्सी"
+    },
+    "price" : {
+      "en" : "NPR 200",
+      "np" : "रु. २००"
+    },
+    "category" : "drinks",
+    "subcategory" :"lassi",
+    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbyL3wFl99aU7hAzu7LZJekiquebqFvBrHcNt6MeRBWt6Dxi719rnpjj7g&s=10",
+    "description"  : {
+      "en" : "A smooth and creamy blend of ripe bananas, fresh yogurt, and a touch of sweetness. A naturally delicious and refreshing drink, perfect for any time of the day.",
+      "np" : "पाकेको केरा, ताजा दही र हल्का मिठासको मिश्रणबाट तयार गरिएको मखमली, स्वादिष्ट र ताजगीपूर्ण लस्सी। प्राकृतिक स्वाद र ऊर्जाले भरिएको उत्कृष्ट पेय।"
+    }
+  },
+  {
+    "id" : 27,
+    "name" : {
+      "en" : "Coca Cola",
+      "np" : "कोका-कोला"
+    },
+    "price" : { 
+      "en" : "NPR 80",
+      "np" : "रु. ८०"
+    },
+    "category" : "drinks",
+    "subcategory" : "soft-drink",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFoQWLeOHt_ifN5upGUqhPUyf5STgPKhguga3TZXtUR5CEjP5X87IRELU&s=10", 
+    "description" : {
+      "en" : "A refreshing, chilled carbonated soft drink with its classic sweet taste, perfect for any meal.",
+      "np" : "चिसो र ताजगी दिने कार्बोनेटेड सफ्ट ड्रिंक, यसको मीठो स्वाद कुनै पनि परिकारसँग उपयुक्त हुन्छ।"
+    }
+
+  },
+  {
+"id" : 28,
+"name" : {
+  "en" :  "Fanta",
+  "np" : "फान्टा"
+},
+"price" : {
+  "en" : "NPR 80",
+      "np" : "रु. ८०"
+  },
+  "category" : "drinks",
+    "subcategory" : "soft-drink",
+    "image" : "https://cdn.uengage.io/uploads/5/image-221912-1716544775.jpeg",
+    "description" : {
+      "en" : "A refreshing, fizzy orange-flavored soft drink with a sweet and fruity taste.",
+      "np" : "मीठो र फलफूलको स्वादयुक्त सुन्तला फ्लेभरको ताजगी दिने कार्बोनेटेड सफ्ट ड्रिंक।"
+    }
+  },
+  {
+"id" : 29,
+"name" : {
+  "en" :  "Sprite",
+  "np" : "स्प्राइट"
+},
+"price" : {
+  "en" : "NPR 80",
+      "np" : "रु. ८०"
+  },
+  "category" : "drinks",
+    "subcategory" : "soft-drink",
+    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHSnW1N-V8Ylr_fKfnk0rlzxFpvDNY3j9_58a4Dg7sI8MMWI64wiYi0Hb&s=10",
+    "description" : {
+      "en" : "A crisp and refreshing lemon-lime flavored soft drink with a cool, bubbly taste.",
+      "np" : "कागती र लाइमको स्वादयुक्त, चिसो र ताजगी दिने फिजी कार्बोनेटेड सफ्ट ड्रिंक।"
+    }
+  },
+  {
+    "id" : 30,
+    "name" : {
+      "en" : "Mountain Dew",
+      "np" : "माउन्टेन ड्यु"
+    },
+    "price" : {
+  "en" : "NPR 80",
+      "np" : "रु. ८०"
+  },
+  "category" : "drinks",
+    "subcategory" : "soft-drink",
+    "image" : "https://www.bbassets.com/media/uploads/p/l/40195155_3-mountain-dew-soft-drink.jpg",
+    "description" : {
+      "en" : "A bold and refreshing citrus-flavored soft drink with a crisp, energizing taste.",
+      "np" : "सिट्रस स्वादयुक्त, चिसो र ताजगी दिने फिजी सफ्ट ड्रिंक, जसले ऊर्जा र ताजापनको अनुभूति गराउँछ।"
+    }
+  },
+  {
+    "id" : 31,
+    "name" : {
+      "en" : "Slice",
+      "np" : "स्लाइस"
+    },
+    "price" : {
+  "en" : "NPR 80",
+      "np" : "रु. ८०"
+  },
+  "category" : "drinks",
+  "subcategory" : "soft-drink",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6oGEebnopgQv25Ivm5ebg86IiX4GDOpDQBm6-NPvHPw&s",
+  "description" : {
+    "en" : "A delicious mango-flavored fruit drink with a rich, juicy taste and refreshing sweetness.",
+    "np" : "पाकेको आँपको प्राकृतिक स्वादले भरिएको मीठो र रसिलो फलफूल पेय, जसले प्रत्येक घुट्कामा ताजगी र आनन्द प्रदान गर्छ।"
+  }
+},
+{
+  "id": 32,
+  "name": {
+    "en": "Red Bull",
+    "np": "रेड बुल"
+  },
+  "price": {
+    "en": "NPR 180",
+    "np": "रु. १८०"
+  },
+  "category": "drinks",
+  "subcategory": "soft-drink",
+  "image": "https://media.istockphoto.com/id/537022544/photo/aluminium-can-of-red-bull-energy-drink-iced-background.jpg?s=612x612&w=0&k=20&c=3CZ7G16GJPeLmY29eCRKGKAyN2FVmuO9YzoMEVSKrVQ=",
+  "description": {
+    "en": "A refreshing energy drink with a bold taste, formulated to help you feel energized and focused.",
+    "np": "ऊर्जा र ताजगी प्रदान गर्ने विशेष स्वादयुक्त एनर्जी ड्रिंक, जसले स्फूर्ति र एकाग्रता महसुस गराउन मद्दत गर्छ।"
+  }
+},
+{
+  "id": 33,
+  "name": {
+    "en": "Frooti",
+    "np": "फ्रुटी"
+  },
+  "price": {
+    "en": "NPR 40",
+    "np": "रु. ४०"
+  },
+  "category": "drinks",
+  "subcategory": "soft-drink",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm6AHnCxEIHdQqHgqreUzfMjUa2xkCHiuvDvYliydbRAlnOYARVlOp_0UD&s=10",
+  "description": {
+    "en": "A refreshing mango-flavored fruit drink made from juicy mangoes, offering a naturally sweet and delicious taste.",
+    "np": "रसिला आँपबाट तयार गरिएको मीठो र ताजगीपूर्ण आँप स्वादयुक्त फलफूल पेय, जसले प्रत्येक घुट्कामा प्राकृतिक मिठास र आनन्द प्रदान गर्छ।"
+  }
+},
+{
+  "id": 34,
+  "name": {
+    "en": "Real Juice (1 Ltr)",
+    "np": "रियल जुस (१ लिटर)"
+  },
+  "price": {
+    "en": "NPR 250",
+    "np": "रु. २५०"
+  },
+  "category": "drinks",
+  "subcategory": "soft-drink",
+  "image": "https://5.imimg.com/data5/SELLER/Default/2026/1/574859409/FQ/LD/TU/26602448/real-juice-1-ltr-500x500.jpg",
+  "description": {
+    "en": "A refreshing fruit juice made from carefully selected fruits, offering a naturally delicious taste and perfect for sharing.",
+    "np": "राम्रो गुणस्तरका फलफूलबाट तयार गरिएको स्वादिष्ट र ताजगीपूर्ण फलफूलको जुस। प्राकृतिक स्वादले भरिएको यो १ लिटर जुस परिवार वा साथीहरूसँग बाँडेर पिउन उपयुक्त छ।"
+  }
+},
+{
+  "id": 35,
+  "name": {
+    "en": "Xtreme Energy Drink",
+    "np": "एक्स्ट्रिम एनर्जी ड्रिंक"
+  },
+  "price": {
+    "en": "NPR 200",
+    "np": "रु. २००"
+  },
+  "category": "drinks",
+  "subcategory": "soft-drink",
+  "image": "https://liquorworld.com.np/wp-content/uploads/2021/07/Xtreme-Energy-Drink-330ML.jpg",
+  "description": {
+    "en": "A refreshing energy drink with a bold flavor, specially crafted to boost your energy and keep you refreshed throughout the day.",
+    "np": "ऊर्जा र ताजगी प्रदान गर्ने विशेष स्वादयुक्त एनर्जी ड्रिंक, जसले दिनभरि स्फूर्ति र ताजापन महसुस गराउन मद्दत गर्छ।"
+  }
+},
+{
+  "id": 36,
+  "name": {
+    "en": "Kinley Soda",
+    "np": "किन्ले सोडा"
+  },
+  "price": {
+    "en": "NPR 80",
+    "np": "रु. ८०"
+  },
+  "category": "drinks",
+  "subcategory": "soft-drink",
+  "image": "https://cheers.com.np/uploads/products/4394932083496667113585638697828108513396.png",
+  "description": {
+    "en": "A crisp and refreshing carbonated soda with a clean, bubbly taste, perfect to enjoy on its own or as a mixer.",
+    "np": "सफा, फिजी र ताजगीपूर्ण कार्बोनेटेड सोडा, जसलाई एक्लै पिउन वा अन्य पेयसँग मिसाएर पिउन उपयुक्त हुन्छ।"
+  }
+},
+{
+  "id": 37,
+  "name": {
+    "en": "Kinley Water",
+    "np": "किन्ले पानी"
+  },
+  "price": {
+    "en": "NPR 40",
+    "np": "रु. ४०"
+  },
+  "category": "drinks",
+  "subcategory": "soft-drink",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqXWBdXKVDxxgnZuCrg9YCRY0QQgT2mY2pp1oKYdkGlXnoZJyXavLhAcY&s=10",
+  "description": {
+    "en": "Pure, safe, and refreshing packaged drinking water to keep you hydrated anytime.",
+    "np": "शुद्ध, सुरक्षित र ताजगीपूर्ण प्याकेज्ड पिउने पानी, जसले तपाईंलाई जुनसुकै समयमा हाइड्रेटेड राख्न मद्दत गर्छ।"
+  }
+},
+{
+  "id": 38,
+  "name": {
+    "en": "Aquafina Water",
+    "np": "एक्वाफिना पानी"
+  },
+  "price": {
+    "en": "NPR 50",
+    "np": "रु. ५०"
+  },
+  "category": "drinks",
+  "subcategory": "soft-drink",
+  "image": "https://m.media-amazon.com/images/I/81Th2waxaCL.jpg",
+  "description": {
+    "en": "Pure, clean, and refreshing packaged drinking water to keep you hydrated throughout the day.",
+    "np": "शुद्ध, सफा र ताजगीपूर्ण प्याकेज्ड पिउने पानी, जसले दिनभरि तपाईंलाई हाइड्रेटेड र ताजगीपूर्ण राख्न मद्दत गर्छ।"
+  }
+},
+{
+  "id": 39,
+  "name": {
+    "en": "JS Water",
+    "np": "जेएस पानी"
+  },
+  "price": {
+    "en": "NPR 40",
+    "np": "रु. ४०"
+  },
+  "category": "drinks",
+  "subcategory": "soft-drink",
+  "image": "https://examsbook.co.in/img/post/large/0lBTMirror-and-Water-Image-Questions.jpg",
+  "description": {
+    "en": "Pure and refreshing packaged drinking water, perfect for staying hydrated anytime.",
+    "np": "शुद्ध र ताजगीपूर्ण प्याकेज्ड पिउने पानी, जुनसुकै समयमा शरीरलाई हाइड्रेटेड राख्न उपयुक्त।"
+  }
+},
+{
+  "id": 40,
+  "name": {
+    "en": "Badam Juice",
+    "np": "बदाम जुस"
+  },
+  "price": {
+    "en": "NPR 150",
+    "np": "रु. १५०"
+  },
+  "category": "drinks",
+  "subcategory": "soft-drink",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJyQwgBLgypGtSg949DG80hv2AFtpzCC64yNtJindVldTmZu-xuX1vF4w&s=10",
+  "description": {
+    "en": "A rich and refreshing almond drink made with premium almonds, fresh milk, and a touch of sweetness. Creamy, nutritious, and full of flavor.",
+    "np": "उत्कृष्ट बदाम, ताजा दूध र हल्का मिठासको मिश्रणबाट तयार गरिएको गाढा, पौष्टिक र ताजगीपूर्ण पेय। प्रत्येक घुट्कामा बदामको प्राकृतिक स्वाद र ऊर्जा प्रदान गर्ने उत्कृष्ट जुस।"
+  }
+},
+{
+  "id": 41,
+  "name": {
+    "en": "Mint Lemonade",
+    "np": "पुदिना लेमोनेड"
+  },
+  "price": {
+    "en": "NPR 120",
+    "np": "रु. १२०"
+  },
+  "category": "drinks",
+  "subcategory": "mocktail",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKYHVYqKS-qzBIMxGCG9bjbefTDuPcjS5w6dknLdgf6ItOwBvWSiXK_W8N&s=10",
+  "description": {
+    "en": "A refreshing blend of fresh lemon juice, mint leaves, and sparkling soda, served chilled for a cool and revitalizing experience.",
+    "np": "ताजा कागतीको रस, पुदिनाका पात र स्पार्कलिङ सोडाको मिश्रणबाट तयार गरिएको चिसो र ताजगीपूर्ण पेय। प्रत्येक घुट्कामा शीतलता र ताजापनको अनुभव दिलाउने उत्कृष्ट मोकटेल।"
+  }
+},
+{
+  "id": 42,
+  "name": {
+    "en": "Peach Iced Tea",
+    "np": "पिच आइस्ड टी"
+  },
+  "price": {
+    "en": "NPR 120",
+    "np": "रु. १२०"
+  },
+  "category": "drinks",
+  "subcategory": "mocktail",
+  "image": "https://www.shutterstock.com/image-photo/refreshing-peach-ice-mint-tea-260nw-2367968213.jpg",
+  "description": {
+    "en": "A refreshing blend of premium tea and juicy peach flavor, served chilled for a smooth, fruity, and revitalizing taste.",
+    "np": "उत्कृष्ट चिया र रसिलो पिचको स्वादको मिश्रणबाट तयार गरिएको चिसो र ताजगीपूर्ण पेय। प्रत्येक घुट्कामा फलफूलको मिठास र शीतलताको अनुभव दिलाउने उत्कृष्ट पेय।"
+  }
+},
+{
+  "id": 43,
+  "name": {
+    "en": "Virgin Mojito",
+    "np": "भर्जिन मोजिटो"
+  },
+  "price": {
+    "en": "NPR 160",
+    "np": "रु. १६०"
+  },
+  "category": "drinks",
+  "subcategory": "mocktail",
+  "image": "https://cleobuttera.com/wp-content/uploads/2015/05/three-tray-wl.jpg",
+  "description": {
+    "en": "A refreshing mocktail made with fresh mint, lime, sparkling soda, and a touch of sweetness. Crisp, cool, and perfect for any time of the day.",
+    "np": "ताजा पुदिना, कागती, स्पार्कलिङ सोडा र हल्का मिठासको मिश्रणबाट तयार गरिएको चिसो र ताजगीपूर्ण मोकटेल। प्रत्येक घुट्कामा शीतलता र ताजापनको अनुभव दिलाउने उत्कृष्ट पेय।"
+  }
+},
+{
+  "id": 44,
+  "name": {
+    "en": "Everest Sunrise",
+    "np": "एभरेस्ट सनराइज"
+  },
+  "price": {
+    "en": "NPR 180",
+    "np": "रु. १८०"
+  },
+  "category": "drinks",
+  "subcategory": "mocktail",
+  "image": "https://feastandwest.com/wp-content/uploads/2024/04/sunrise-mocktail-picture.jpg",
+  "description": {
+    "en": "A vibrant tropical mocktail layered with refreshing fruit flavors, served chilled to capture the beautiful colors of an Everest sunrise. Sweet, refreshing, and visually stunning.",
+    "np": "हिमालको सूर्योदयबाट प्रेरित, विभिन्न फलफूलको स्वादले भरिएको आकर्षक र ताजगीपूर्ण मोकटेल। चिसो रूपमा परोसिने यो पेय प्रत्येक घुट्कामा मिठास, ताजापन र मनमोहक अनुभव प्रदान गर्छ।"
+  }
+},
+{
+  "id": 45,
+  "name": {
+    "en": "Mustang Apple Sparkle",
+    "np": "मुस्ताङ एप्पल स्पार्कल"
+  },
+  "price": {
+    "en": "NPR 180",
+    "np": "रु. १८०"
+  },
+  "category": "drinks",
+  "subcategory": "mocktail",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoysvBGWCCTrOZsEDY9F7Ir_e8r9f-COHd1c_AuXf9YiOmf609c_Qv2qU&s=10",
+  "description": {
+    "en": "A refreshing mocktail made with crisp apple juice, sparkling soda, and a hint of fresh lime. Light, fizzy, and bursting with fruity flavor.",
+    "np": "ताजा स्याउको जुस, स्पार्कलिङ सोडा र हल्का कागतीको स्वादको मिश्रणबाट तयार गरिएको ताजगीपूर्ण मोकटेल। हल्का, फिजी र फलफूलको स्वादले भरिएको प्रत्येक घुट्कामा शीतलताको अनुभव दिलाउने उत्कृष्ट पेय।"
+  }
+},
+{
+  "id": 46,
+  "name": {
+    "en": "Blue Lagoon",
+    "np": "ब्लु लगून"
+  },
+  "price": {
+    "en": "NPR 200",
+    "np": "रु. २००"
+  },
+  "category": "drinks",
+  "subcategory": "mocktail",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHNGnhfAD7UvHqbYNpzl18jk8R7n8xWRAcjG-_6LDkjo2AOEwQTHtwgAm8&s=10",
+  "description": {
+    "en": "A vibrant and refreshing mocktail made with blue curaçao syrup, fresh lemon juice, and sparkling soda. Sweet, citrusy, and beautifully chilled.",
+    "np": "ब्लु कुरासाओ सिरप, ताजा कागतीको रस र स्पार्कलिङ सोडाको मिश्रणबाट तयार गरिएको आकर्षक र ताजगीपूर्ण मोकटेल। चिसो, सिट्रस स्वादयुक्त र मनमोहक रंगले भरिएको उत्कृष्ट पेय।"
+  }
+},
+{
+  "id": 47,
+  "name": {
+    "en": "Strawberry Blue",
+    "np": "स्ट्रबेरी ब्लु"
+  },
+  "price": {
+    "en": "NPR 200",
+    "np": "रु. २००"
+  },
+  "category": "drinks",
+  "subcategory": "mocktail",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiZy3hMdUeRhE99_mepwRcDDYvJpYMD7GEwtcDHYo64wOeNdNvQFNpbYQs&s=10",
+  "description": {
+    "en": "A refreshing mocktail blending sweet strawberry flavor with a vibrant blue citrus twist, topped with sparkling soda. Fruity, colorful, and delightfully refreshing.",
+    "np": "मीठो स्ट्रबेरी, ब्लु सिट्रस फ्लेभर र स्पार्कलिङ सोडाको मिश्रणबाट तयार गरिएको आकर्षक र ताजगीपूर्ण मोकटेल। प्रत्येक घुट्कामा फलफूलको मिठास, रंगीन आकर्षण र शीतलताको अनुभव दिलाउने उत्कृष्ट पेय।"
+  }
+},{
+    "id":48,
+    "name":{
+        "en":"Chivas Regal",
+        "np":"चिभास रिगल"
+    },
+
+    "category":"drinks",
+    "subcategory":"hard-drink",
+
+    "image":"https://img.drz.lazcdn.com/static/np/p/19f6b9d182bc0f0c1a6cf015d6df6c2a.jpg_720x720q80.jpg",
+
+    "description":{
+        "en":"Premium blended Scotch whisky with a smooth and rich finish.",
+        "np":"मखमली स्वाद र समृद्ध फिनिस भएको उत्कृष्ट ब्लेन्डेड स्कच व्हिस्की।"
+    },
+
+    "sizes":[
+        {
+            "size":{
+                "en":"1 Ltr",
+                "np":"१ लिटर"
+            },
+            "price":{
+                "en":"NPR 10550",
+                "np":"रु. १०,५५०"
+            }
+        },
+        {
+            "size":{
+                "en":"Half",
+                "np":"हाफ"
+            },
+            "price":{
+                "en":"NPR 5260",
+                "np":"रु. ५,२६०"
+            }
+        },
+        {
+            "size":{
+                "en":"Quarter",
+                "np":"क्वार्टर"
+            },
+            "price":{
+                "en":"NPR 2630",
+                "np":"रु. २,६३०"
+            }
+        }
+    ]
+},
+{
+  "id": 49,
+  "name": {
+    "en": "Gurkha & Gun",
+    "np": "गोरखा एन्ड गन"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBRJ25RkmOWRSWka2lGJ47zXhspvQ2z6iqC3t-WsMmlD8pTRanoLDuGRoh&s=10",
+  "description": {
+    "en": "A premium blended whisky with a smooth character, rich aroma, and balanced finish. Perfect for those who enjoy a refined and flavorful drink.",
+    "np": "मखमली स्वाद, समृद्ध सुगन्ध र सन्तुलित फिनिस भएको उत्कृष्ट ब्लेन्डेड व्हिस्की। उत्कृष्ट स्वादको अनुभव चाहनेहरूका लागि उपयुक्त पेय।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "750 ml",
+        "np": "७५० मि.लि."
+      },
+      "price": {
+        "en": "NPR 3690",
+        "np": "रु. ३,६९०"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 1850",
+        "np": "रु. १,८५०"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 925",
+        "np": "रु. ९२५"
+      }
+    }
+  ]
+},
+{
+  "id": 50,
+  "name": {
+    "en": "Johnnie Walker Black Label",
+    "np": "जोनी वाकर ब्ल्याक लेबल"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://www.shutterstock.com/image-photo/london-uk-13-june-2024-260nw-2561566827.jpg",
+  "description": {
+    "en": "A world-renowned premium blended Scotch whisky with rich smoky notes, hints of vanilla, dried fruits, and a smooth, long-lasting finish.",
+    "np": "धुवाँको हल्का स्वाद, भेनिला, सुक्खा फलफूलको मिठास र लामो मखमली फिनिस भएको विश्वप्रसिद्ध प्रिमियम ब्लेन्डेड स्कच व्हिस्की।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "1 Ltr",
+        "np": "१ लिटर"
+      },
+      "price": {
+        "en": "NPR 11250",
+        "np": "रु. ११,२५०"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 5625",
+        "np": "रु. ५,६२५"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 2820",
+        "np": "रु. २,८२०"
+      }
+    }
+  ]
+},
+{
+  "id": 51,
+  "name": {
+    "en": "Johnnie Walker Red Label",
+    "np": "जोनी वाकर रेड लेबल"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://thumbs.dreamstime.com/b/johnnie-walker-red-label-blended-whisky-gradient-background-was-established-kilmarnock-scotland-92063656.jpg",
+  "description": {
+    "en": "A bold and vibrant blended Scotch whisky with smoky notes, hints of spice, and a smooth finish. Perfect for enjoying neat or in classic whisky cocktails.",
+    "np": "धुवाँको हल्का स्वाद, मसलाको सुगन्ध र मखमली फिनिस भएको उत्कृष्ट ब्लेन्डेड स्कच व्हिस्की। सिधै वा विभिन्न व्हिस्की ककटेलसँग पिउन उपयुक्त।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "1 Ltr",
+        "np": "१ लिटर"
+      },
+      "price": {
+        "en": "NPR 8315",
+        "np": "रु. ८,३१५"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 4160",
+        "np": "रु. ४,१६०"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 2080",
+        "np": "रु. २,०८०"
+      }
+    }
+  ]
+},
+{
+  "id": 52,
+  "name": {
+    "en": "Johnnie Walker Double Black",
+    "np": "जोनी वाकर डबल ब्ल्याक"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8inNDYizlKnsRssgYsSAZhpCqUaGiN0nqelEe6CHODcbNIDq0dQCLO0&s=10",
+  "description": {
+    "en": "A premium blended Scotch whisky with intense smoky flavors, rich vanilla notes, and a deep, smooth finish. Crafted for those who enjoy a bold whisky experience.",
+    "np": "गाढा धुवाँको स्वाद, भेनिलाको मिठास र लामो मखमली फिनिस भएको उत्कृष्ट प्रिमियम ब्लेन्डेड स्कच व्हिस्की। दमदार स्वाद मन पराउनेहरूका लागि उपयुक्त।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "1 Ltr",
+        "np": "१ लिटर"
+      },
+      "price": {
+        "en": "NPR 13460",
+        "np": "रु. १३,४६०"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 6750",
+        "np": "रु. ६,७५०"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 3380",
+        "np": "रु. ३,३८०"
+      }
+    }
+  ]
+},
+{
+  "id": 53,
+  "name": {
+    "en": "Jack Daniel's",
+    "np": "ज्याक ड्यानियल्स"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://i.pinimg.com/564x/71/d9/00/71d90008eceb5fd3b5ff34dd90b97496.jpg",
+  "description": {
+    "en": "A world-famous Tennessee whiskey with smooth notes of caramel, vanilla, toasted oak, and a rich, mellow finish. Perfect for sipping neat or on the rocks.",
+    "np": "क्यारामेल, भेनिला र टोस्टेड ओकको स्वादले भरिएको विश्वप्रसिद्ध टेनेसी व्हिस्की। यसको मखमली स्वाद र समृद्ध फिनिसले उत्कृष्ट अनुभव प्रदान गर्छ।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "750 ml",
+        "np": "७५० मि.लि."
+      },
+      "price": {
+        "en": "NPR 8000",
+        "np": "रु. ८,०००"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 4000",
+        "np": "रु. ४,०००"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 2000",
+        "np": "रु. २,०००"
+      }
+    }
+  ]
+},
+{
+  "id": 54,
+  "name": {
+    "en": "Challenger",
+    "np": "च्यालेन्जर"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_0BfKIoyLAelR1wAHXNaoJ0R2fVhDznEu2ksJblA0pg&s",
+  "description": {
+    "en": "A smooth blended whisky with a balanced taste and pleasant aroma, offering an enjoyable drinking experience for every occasion.",
+    "np": "सन्तुलित स्वाद र मनमोहक सुगन्ध भएको उत्कृष्ट ब्लेन्डेड व्हिस्की। प्रत्येक अवसरका लागि उपयुक्त मखमली र स्वादिष्ट पेय।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "750 ml",
+        "np": "७५० मि.लि."
+      },
+      "price": {
+        "en": "NPR 1410",
+        "np": "रु. १,४१०"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 710",
+        "np": "रु. ७१०"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 360",
+        "np": "रु. ३६०"
+      }
+    }
+  ]
+},
+{
+  "id": 55,
+  "name": {
+    "en": "Khukuri Rum",
+    "np": "खुकुरी रम"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://liquorworld.com.np/wp-content/uploads/2019/05/Khukri-Coronation-Rum-375ML-New-Pack.jpg",
+  "description": {
+    "en": "A premium Nepalese dark rum with rich caramel notes, smooth spices, and a mellow finish. Crafted for a bold and authentic rum experience.",
+    "np": "क्यारामेलको मिठास, मसलाको सुगन्ध र मखमली फिनिस भएको उत्कृष्ट नेपाली डार्क रम। दमदार र प्रामाणिक रमको स्वाद अनुभव गर्न चाहनेहरूका लागि उपयुक्त।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "750 ml",
+        "np": "७५० मि.लि."
+      },
+      "price": {
+        "en": "NPR 2750",
+        "np": "रु. २,७५०"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 1380",
+        "np": "रु. १,३८०"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 700",
+        "np": "रु. ७००"
+      }
+    }
+  ]
+},
+{
+  "id": 56,
+  "name": {
+    "en": "Old Durbar Red",
+    "np": "ओल्ड दरबार रेड"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://liquorworld.com.np/wp-content/uploads/2021/09/Old-Durbar-15-Years-750ML.jpg",
+  "description": {
+    "en": "A premium Nepalese blended whisky with a smooth, rich character, subtle smoky notes, and a refined finish. A perfect choice for whisky enthusiasts.",
+    "np": "मखमली स्वाद, हल्का धुवाँको सुगन्ध र उत्कृष्ट फिनिस भएको प्रिमियम नेपाली ब्लेन्डेड व्हिस्की। उत्कृष्ट व्हिस्कीको स्वाद मन पराउनेहरूका लागि उपयुक्त।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "750 ml",
+        "np": "७५० मि.लि."
+      },
+      "price": {
+        "en": "NPR 3450",
+        "np": "रु. ३,४५०"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 1730",
+        "np": "रु. १,७३०"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 870",
+        "np": "रु. ८७०"
+      }
+    }
+  ]
+},
+{
+  "id": 57,
+  "name": {
+    "en": "Old Durbar Black",
+    "np": "ओल्ड दरबार ब्ल्याक"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://olddurbar.com/wp-content/uploads/2023/03/black_chimney.jpg",
+  "description": {
+    "en": "A premium Nepalese blended whisky with deep flavors, rich aroma, smooth texture, and a refined finish. Crafted for those who appreciate a bold whisky experience.",
+    "np": "गहिरो स्वाद, समृद्ध सुगन्ध, मखमली बनावट र उत्कृष्ट फिनिस भएको प्रिमियम नेपाली ब्लेन्डेड व्हिस्की। दमदार स्वाद मन पराउनेहरूका लागि विशेष पेय।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "750 ml",
+        "np": "७५० मि.लि."
+      },
+      "price": {
+        "en": "NPR 4490",
+        "np": "रु. ४,४९०"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 2250",
+        "np": "रु. २,२५०"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 1130",
+        "np": "रु. १,१३०"
+      }
+    }
+  ]
+},
+{
+  "id": 58,
+  "name": {
+    "en": "VAT 69",
+    "np": "भ्याट ६९"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREjRLdat5ra9PiZE4cN-vJBtY5FemvaCyqBZehZozMCvqTaL_VKx46sgwW&s=10",
+  "description": {
+    "en": "A classic blended Scotch whisky with a smooth, balanced flavor, subtle smoky notes, and a pleasant finish. A timeless choice for whisky lovers.",
+    "np": "सन्तुलित स्वाद, हल्का धुवाँको सुगन्ध र मखमली फिनिस भएको क्लासिक ब्लेन्डेड स्कच व्हिस्की। व्हिस्की प्रेमीहरूका लागि उत्कृष्ट छनोट।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "1 Ltr",
+        "np": "१ लिटर"
+      },
+      "price": {
+        "en": "NPR 7750",
+        "np": "रु. ७,७५०"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 3880",
+        "np": "रु. ३,८८०"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 1940",
+        "np": "रु. १,९४०"
+      }
+    }
+  ]
+},
+{
+  "id": 59,
+  "name": {
+    "en": "Signature Whisky",
+    "np": "सिग्नेचर व्हिस्की"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://cheers.com.np/uploads/products/16397286351534220779915214809461344920240093.png",
+  "description": {
+    "en": "A smooth and refined blended whisky with a balanced taste, rich aroma, and gentle finish. Perfect for those who enjoy a classic whisky experience.",
+    "np": "सन्तुलित स्वाद, समृद्ध सुगन्ध र मखमली फिनिस भएको उत्कृष्ट ब्लेन्डेड व्हिस्की। क्लासिक व्हिस्कीको स्वाद मन पराउनेहरूका लागि उपयुक्त।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "750 ml",
+        "np": "७५० मि.लि."
+      },
+      "price": {
+        "en": "NPR 3250",
+        "np": "रु. ३,२५०"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 1630",
+        "np": "रु. १,६३०"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 820",
+        "np": "रु. ८२०"
+      }
+    }
+  ]
+},
+{
+  "id": 60,
+  "name": {
+    "en": "Yeti Vodka",
+    "np": "यती भोड्का"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://liquorworld.com.np/wp-content/uploads/2022/09/Yeti-Vodka-750ML.jpg",
+  "description": {
+    "en": "A smooth and clean vodka with a crisp finish, perfect for refreshing cocktails or enjoying on its own. Crafted for a pure and balanced drinking experience.",
+    "np": "सफा, मखमली र सन्तुलित स्वाद भएको उत्कृष्ट भोड्का। ताजा ककटेल वा सिधै सेवन गर्न उपयुक्त शुद्ध र स्वादिष्ट पेय।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "750 ml",
+        "np": "७५० मि.लि."
+      },
+      "price": {
+        "en": "NPR 2750",
+        "np": "रु. २,७५०"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 1380",
+        "np": "रु. १,३८०"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 690",
+        "np": "रु. ६९०"
+      }
+    }
+  ]
+},
+{
+  "id": 61,
+  "name": {
+    "en": "8848 Vodka",
+    "np": "८८४८ भोड्का"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT32sL3ul02eKoO6sBoEoT8x0aak9qnPerg8d8wwIlnLA&s",
+  "description": {
+    "en": "A premium Nepalese vodka with a smooth, clean taste and refreshing finish. Crafted for a pure and enjoyable drinking experience.",
+    "np": "मखमली, सफा र ताजगीपूर्ण स्वाद भएको उत्कृष्ट नेपाली भोड्का। शुद्ध र रमाइलो पेय अनुभवका लागि तयार गरिएको प्रिमियम भोड्का।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "750 ml",
+        "np": "७५० मि.लि."
+      },
+      "price": {
+        "en": "NPR 2750",
+        "np": "रु. २,७५०"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 1380",
+        "np": "रु. १,३८०"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 690",
+        "np": "रु. ६९०"
+      }
+    }
+  ]
+},
+{
+  "id": 62,
+  "name": {
+    "en": "Smirnoff Vodka",
+    "np": "स्मिरनफ भोड्का"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs9dNU_UaJowvVhrWIcGC1vVMvO2Dlb5DNxnfrcKIMklPuw1ouww-earTG&s=10",
+  "description": {
+    "en": "A smooth and premium vodka with a clean taste and crisp finish. Perfect for refreshing cocktails or enjoying a pure vodka experience.",
+    "np": "सफा स्वाद, मखमली बनावट र ताजगीपूर्ण फिनिस भएको उत्कृष्ट प्रिमियम भोड्का। ताजा ककटेल वा शुद्ध भोड्काको अनुभवका लागि उपयुक्त।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "750 ml",
+        "np": "७५० मि.लि."
+      },
+      "price": {
+        "en": "NPR 2750",
+        "np": "रु. २,७५०"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 1380",
+        "np": "रु. १,३८०"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 690",
+        "np": "रु. ६९०"
+      }
+    }
+  ]
+},
+{
+  "id": 63,
+  "name": {
+    "en": "Black Oak",
+    "np": "ब्ल्याक ओक"
+  },
+  "category": "drinks",
+  "subcategory": "hard-drink",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfyX0NSjmXIsBrI2LycDixWC_pGjZ029Zh4y7ai5wUNZTbgO0I9XsTYoo&s=10",
+  "description": {
+    "en": "A smooth blended whisky with rich oak notes, balanced flavor, and a pleasant finish. A great choice for those who enjoy a classic whisky taste.",
+    "np": "ओकको समृद्ध स्वाद, सन्तुलित फ्लेभर र मखमली फिनिस भएको उत्कृष्ट ब्लेन्डेड व्हिस्की। क्लासिक व्हिस्कीको स्वाद मन पराउनेहरूका लागि उपयुक्त।"
+  },
+  "sizes": [
+    {
+      "size": {
+        "en": "750 ml",
+        "np": "७५० मि.लि."
+      },
+      "price": {
+        "en": "NPR 1700",
+        "np": "रु. १,७००"
+      }
+    },
+    {
+      "size": {
+        "en": "Half",
+        "np": "हाफ"
+      },
+      "price": {
+        "en": "NPR 860",
+        "np": "रु. ८६०"
+      }
+    },
+    {
+      "size": {
+        "en": "Quarter",
+        "np": "क्वार्टर"
+      },
+      "price": {
+        "en": "NPR 430",
+        "np": "रु. ४३०"
+      }
+    }
+  ]
+},
+{
+  "id": 64,
+  "name": {
+    "en": "JP Chenet",
+    "np": "जेपी चेनेट"
+  },
+  "category": "drinks",
+  "subcategory": "wine",
+  "image": "https://cdn11.bigcommerce.com/s-tgrcca6nho/images/stencil/original/products/40045/74138/j.p-chenet-wine-combo__74261.1749310311.jpg",
+  "description": {
+    "en": "A premium French wine known for its smooth taste, elegant aroma, and refreshing fruity notes. A perfect choice for relaxing moments and special occasions.",
+    "np": "मखमली स्वाद, आकर्षक सुगन्ध र फलफूलको ताजगीपूर्ण स्वादका लागि प्रसिद्ध प्रिमियम फ्रेन्च वाइन। विशेष अवसर र आरामदायी क्षणका लागि उत्कृष्ट छनोट।"
+  },
+  "price": {
+    "en": "NPR 2640",
+    "np": "रु. २,६४०"
+  }
+},
+{
+  "id": 65,
+  "name": {
+    "en": "Big Master",
+    "np": "बिग मास्टर"
+  },
+  "category": "drinks",
+  "subcategory": "wine",
+  "image": "https://cheers.com.np/uploads/products/39382476201980060473406311547179742976309217.png",
+  "description": {
+    "en": "A smooth and refreshing wine with a balanced taste and pleasant aroma. A great choice for casual gatherings and enjoyable moments.",
+    "np": "सन्तुलित स्वाद र मनमोहक सुगन्ध भएको मखमली र ताजगीपूर्ण वाइन। साधारण भेटघाट र रमाइलो क्षणका लागि उपयुक्त छनोट।"
+  },
+  "price": {
+    "en": "NPR 950",
+    "np": "रु. ९५०"
+  }
+},
+{
+  "id": 66,
+  "name": {
+    "en": "Gorkha Beer(large)",
+    "np": "गोर्खा बियर(ठूलो)"
+  },
+  "category": "drinks",
+  "subcategory": "beer",
+  "image": "https://cdn.fasto.com.np/media/src/images/product_images/grid-20240703010529_1691815803.png",
+  "description": {
+    "en": "A refreshing Nepalese beer with a crisp taste, smooth finish, and perfect balance. A popular choice for enjoying chilled moments with friends.",
+    "np": "चिसो र ताजगीपूर्ण स्वाद, मखमली फिनिस र सन्तुलित फ्लेभर भएको लोकप्रिय नेपाली बियर। साथीहरूसँग रमाइलो क्षणका लागि उत्कृष्ट छनोट।"
+  },
+  "price": {
+    "en": "NPR 450",
+    "np": "रु. ४५०"
+  }
+},
+{
+  "id": 67,
+  "name": {
+    "en": "Gorkha Beer (Small)",
+    "np": "गोर्खा बियर (सानो)"
+  },
+  "category": "drinks",
+  "subcategory": "beer",
+  "image": "https://img.drz.lazcdn.com/static/np/p/532b00e5f5464692106bd55b90743d61.jpg_720x720q80.jpg",
+  "description": {
+    "en": "A refreshing Nepalese beer with a crisp taste, smooth finish, and balanced flavor. A perfect chilled drink for casual moments.",
+    "np": "चिसो, ताजगीपूर्ण स्वाद र सन्तुलित फ्लेभर भएको लोकप्रिय नेपाली बियर। साधारण रमाइलो क्षणका लागि उपयुक्त चिसो पेय।"
+  },
+  "price": {
+    "en": "NPR 230",
+    "np": "रु. २३०"
+  }
+},
+{
+  "id": 68,
+  "name": {
+    "en": "Tuborg Gold Beer",
+    "np": "टुबोर्ग गोल्ड बियर"
+  },
+  "category": "drinks",
+  "subcategory": "beer",
+  "image": "https://gorkhabrewery.com/media/ma0jo1e3/new-tuborg-img.png?height=1140&mode=max",
+  "description": {
+    "en": "A premium lager beer with a smooth golden taste, refreshing aroma, and balanced finish. Perfectly chilled for a relaxing and enjoyable experience.",
+    "np": "मखमली सुनौलो स्वाद, ताजगीपूर्ण सुगन्ध र सन्तुलित फिनिस भएको प्रिमियम लेगर बियर। चिसो रूपमा सेवन गर्दा उत्कृष्ट अनुभव प्रदान गर्ने पेय।"
+  },
+  "price": {
+    "en": "NPR 600",
+    "np": "रु. ६००"
+  }
+},
+{
+  "id": 69,
+  "name": {
+    "en": "Kingfisher Beer",
+    "np": "किङफिसर बियर"
+  },
+  "category": "drinks",
+  "subcategory": "beer",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS61s12i7OKff86_g3BZaU58d6e_ZvMjCcI0aMrkeHEGvM9Ze6raBWVelf4&s=10",
+  "description": {
+    "en": "A refreshing Indian lager beer with a crisp taste, smooth texture, and balanced flavor. Best enjoyed chilled for a refreshing experience.",
+    "np": "चिसो र ताजगीपूर्ण स्वाद, मखमली बनावट र सन्तुलित फ्लेभर भएको लोकप्रिय भारतीय लेगर बियर। ताजगीपूर्ण अनुभवका लागि चिसो रूपमा उपयुक्त।"
+  },
+  "price": {
+    "en": "NPR 400",
+    "np": "रु. ४००"
+  }
+},
+{
+  "id": 70,
+  "name": {
+    "en": "Arna Beer",
+    "np": "अर्ना बियर"
+  },
+  "category": "drinks",
+  "subcategory": "beer",
+  "image": "https://static-01.daraz.com.np/p/3af6d7bfea30d85956972c04bd733e4e.jpg",
+  "description": {
+    "en": "A refreshing Nepalese beer with a crisp taste, smooth finish, and balanced flavor. Perfect for enjoying chilled moments with friends.",
+    "np": "चिसो, ताजगीपूर्ण स्वाद, मखमली फिनिस र सन्तुलित फ्लेभर भएको लोकप्रिय नेपाली बियर। साथीहरूसँग रमाइलो क्षणका लागि उत्कृष्ट छनोट।"
+  },
+  "price": {
+    "en": "NPR 550",
+    "np": "रु. ५५०"
+  }
+},
+{
+  "id": 71,
+  "name": {
+    "en": "Carlsberg Beer",
+    "np": "कार्ल्सबर्ग बियर"
+  },
+  "category": "drinks",
+  "subcategory": "beer",
+  "image": "https://c8.alamy.com/comp/2WMG78M/the-carlsberg-beer-bottle-on-the-table-2WMG78M.jpg",
+  "description": {
+    "en": "A premium Danish lager beer with a smooth taste, refreshing aroma, and balanced finish. Best served chilled for a satisfying experience.",
+    "np": "मखमली स्वाद, ताजगीपूर्ण सुगन्ध र सन्तुलित फिनिस भएको प्रिमियम डेनिस लेगर बियर। उत्कृष्ट स्वादका लागि चिसो रूपमा परोस्न उपयुक्त।"
+  },
+  "price": {
+    "en": "NPR 650",
+    "np": "रु. ६५०"
+  }
+}
 ]
